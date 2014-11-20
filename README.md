@@ -1,4 +1,4 @@
 maze-runner
 ===========
 
-Code for an activity bot that traverses a maze.
+Code for an activitybot that traverses a maze.
