@@ -9,7 +9,6 @@
 Function drive_goto( , ) is used to finely turn the bot around.
 */
 
-
 int main(){
 //Initialization variables and settings
   double completeturn = 51.12;
@@ -18,8 +17,6 @@ int main(){
   drive_setRampStep(10);
   int turncounter = 0;
  
-   
-  
 //main loop, alter at your own risk :3
  while(1){
    drive_ramp(64, 64);
