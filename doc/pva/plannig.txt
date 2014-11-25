@@ -1,0 +1,24 @@
+week 1 
+	onderdelen bekijken
+		sensoren uitproberen
+	onderzoeksopdracht maken
+	pva opzetten
+week 2
+	pva consept afleveren
+	move library maken
+	onderzoeksopdracht presenteren
+week 3
+	pva afleveren
+	beslissingsgraph
+week4
+	beslissingsgraph inplementeren
+week 5
+	vervolg beslissingsgraph inplementeren
+¡¡¡¡¡¡KERSTVAKANIE!!!!!!
+week 6
+	plannen voor de komen weken.
+	code afronden
+week 7
+	testen / aanpassen
+week 8
+	testen / aanpassen
