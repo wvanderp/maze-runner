@@ -1,7 +1,7 @@
 /* Code for activity bot v0.4 */
 //psuedo code v0.4
 //in deze method heb je de "keep drive forward" en een if statement, als de ultrasound detecteert dat de afstand equal is aan 7 cm wordt de method check aangeroepen.
-int methode drive{
+methode drive{
  
 	if{ 7 cm )
 	{
