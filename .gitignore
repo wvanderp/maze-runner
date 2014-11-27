@@ -1,1 +1,4 @@
 */build/*
+*/.*lock*.*.*
+doc/pva/.~lock.beoordeeling.ods*
+

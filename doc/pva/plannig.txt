@@ -1,15 +1,24 @@
 week 1 
-	onderdelen bekijken
-		sensoren uitproberen
-	onderzoeksopdracht maken
-	pva opzetten
+	bouwers/progameurs
+		onderdelen bekijken
+			sensoren uitproberen
+		onderzoeksopdracht maken
+	planner/projectleider
+		pva opzetten
 week 2
-	pva consept afleveren
-	move library maken
-	onderzoeksopdracht presenteren
+	bouwers
+		expirimenteren met de sensoren (inflarood ultrasone en whiskers)
+		presentatie geven over de bevindingen en ervaringen met de sensoren
+		plan maaken voor het definatiefen aansluiten van de sensoren
+	progameurs
+		van uit het definitief plan een planning maken voor het bepaalen van de fundties die de activitybot moet uitvoeren.
+	planning/ project leider
+		een conseptueel plan van aanpak maken.
 week 3
-	pva afleveren
-	beslissingsgraph
+	bouwers/progameurs 
+		testen of dat alle sensoren met elkaar samenwerken.
+	planner/projectleider
+		definitieve versie van het plan van aanpak opleveren
 week4
 	beslissingsgraph inplementeren
 week 5
