@@ -1,4 +1,4 @@
-week 1 
+﻿week 1 
 	bouwers/progameurs
 		onderdelen bekijken
 			sensoren uitproberen
@@ -20,14 +20,26 @@ week 3
 	planner/projectleider
 		definitieve versie van het plan van aanpak opleveren
 week4
-	beslissingsgraph inplementeren
+	Werken aan de code voor nieuwe functies, debuggen en code opschonen
+	werken aan presentatie vaardigheden
+	Vergaderen over de voortgang van het project (1 uur)
 week 5
-	vervolg beslissingsgraph inplementeren
+	Vergaderen over projectwerkzaamheden in de kert vakantie (1 uur)
+	functionaliteit van de activitybot in het doolhof testen\
+	Werken aan de management samenvatting
+
 ¡¡¡¡¡¡KERSTVAKANIE!!!!!!
 week 6
-	plannen voor de komen weken.
-	code afronden
+	Vergaderen ver verrichte werkzaamheden in de vakantie
+	Werken aan management samenvatting
+	Code updaten
+	fuctionaliteit van de activitybot in het doolhof testen
 week 7
-	testen / aanpassen
+	Oefenen met presenteren van de feedback formulieren
+	vergaderen over de defenitieve versie van de activitybot
+	Code opschonen en definitieve versie opleveren van de code
+	Fuctionaliteit van de definitieve versie van de code van de activity bot testen in het doolhof
 week 8
-	testen / aanpassen
+	Vergaderen over het opleveren van het eindproduct
+	Eindproduct testen in het doolhof
+	Management samenvatting inleveren
