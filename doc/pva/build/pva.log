@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.11.20)  25 NOV 2014 13:04
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.11.20)  27 NOV 2014 14:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -187,18 +187,18 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 ]
 Hoofdstuk 1.
 
-Underfull \hbox (badness 10000) in paragraph at lines 36--39
+Underfull \hbox (badness 10000) in paragraph at lines 37--40
 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 40.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 41.
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 40.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 41.
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--47
+Underfull \hbox (badness 10000) in paragraph at lines 47--48
 
  []
 
@@ -206,6 +206,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 46--47
 
 ]
 Hoofdstuk 2.
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--56
+
+ []
+
 [3
 
 
@@ -216,26 +221,21 @@ Hoofdstuk 3.
 
 ]
 Hoofdstuk 4.
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--62
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--68
+
+ []
+
 [5
 
 
 ]
 Hoofdstuk 5.
-
-Underfull \hbox (badness 10000) in paragraph at lines 62--63
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 63--64
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 64--65
-
- []
-
 [6
 
 
@@ -257,17 +257,17 @@ Hoofdstuk 8.
 ]
 Hoofdstuk 9.
 
-Underfull \hbox (badness 10000) in paragraph at lines 77--87
+Underfull \hbox (badness 10000) in paragraph at lines 93--103
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 77--87
+Underfull \hbox (badness 10000) in paragraph at lines 93--103
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 77--87
+Underfull \hbox (badness 10000) in paragraph at lines 93--103
 
  []
 
@@ -290,7 +290,7 @@ m/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx
 hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/te
 xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/
 texmf-dist/fonts/type1/public/eurosym/feymr10.pfb>
-Output written on build/pva.pdf (11 pages, 88667 bytes).
+Output written on build/pva.pdf (11 pages, 90596 bytes).
 PDF statistics:
  68 PDF objects out of 1000 (max. 8388607)
  47 compressed objects within 1 object stream
