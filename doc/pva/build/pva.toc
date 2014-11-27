@@ -8,3 +8,4 @@
 \contentsline {chapter}{\numberline {7}Projectorganisatie}{}
 \contentsline {chapter}{\numberline {8}Planning}{}
 \contentsline {chapter}{\numberline {9}Kosten en Baten}{}
+\contentsline {chapter}{\numberline {10}risico's}{}
