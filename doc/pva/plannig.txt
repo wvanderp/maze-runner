@@ -30,16 +30,23 @@ week 5
 
 ¡¡¡¡¡¡KERSTVAKANIE!!!!!!
 week 6
-	Vergaderen ver verrichte werkzaamheden in de vakantie
-	Werken aan management samenvatting
-	Code updaten
-	fuctionaliteit van de activitybot in het doolhof testen
+	all
+		Vergaderen ver verrichte werkzaamheden in de vakantie
+	projectleider
+		Werken aan management samenvatting
+	bouwers/progameurs
+		Code updaten
+		fuctionaliteit van de activitybot in het doolhof testen
 week 7
-	Oefenen met presenteren van de feedback formulieren
-	vergaderen over de defenitieve versie van de activitybot
-	Code opschonen en definitieve versie opleveren van de code
-	Fuctionaliteit van de definitieve versie van de code van de activity bot testen in het doolhof
+	all
+		Oefenen met presenteren van de feedback formulieren
+		vergaderen over de defenitieve versie van de activitybot
+	progmeurs/bouwers
+		Code opschonen en definitieve versie opleveren van de code
+		Fuctionaliteit van de definitieve versie van de code van de activity bot testen in het doolhof
 week 8
-	Vergaderen over het opleveren van het eindproduct
-	Eindproduct testen in het doolhof
-	Management samenvatting inleveren
+	all
+		Vergaderen over het opleveren van het eindproduct
+		Eindproduct testen in het doolhof
+	projectleiders
+		Management samenvatting inleveren
