@@ -16,7 +16,7 @@ int methode drive{
  }
  
  //infra-red, this will be used as a boolean type "true or false" to check both sides and from there it will make a decision and turn from there it will turn 90 degrees.
- method check{
+ int method check{
 	
 	if( left == true && right != true ) //if left is true and only left
 	{
