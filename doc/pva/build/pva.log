@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.11.20)  28 NOV 2014 12:42
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.11.20)  1 DEC 2014 23:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -178,7 +178,12 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 [1
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (build/pva.toc)
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (build/pva.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 3.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 3.
+)
 \tf@toc=\write3
 \openout3 = `pva.toc'.
 
@@ -187,18 +192,23 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 ]
 Hoofdstuk 1.
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--41
+Underfull \hbox (badness 10000) in paragraph at lines 38--42
 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 42.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 43.
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 42.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 43.
 
-Underfull \hbox (badness 10000) in paragraph at lines 48--49
+Underfull \hbox (badness 10000) in paragraph at lines 49--54
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--54
 
  []
 
@@ -207,7 +217,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 48--49
 ]
 Hoofdstuk 2.
 
-Underfull \hbox (badness 10000) in paragraph at lines 52--55
+Underfull \hbox (badness 10000) in paragraph at lines 57--61
 
  []
 
@@ -222,12 +232,12 @@ Hoofdstuk 3.
 ]
 Hoofdstuk 4.
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--61
+Underfull \hbox (badness 10000) in paragraph at lines 66--67
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--67
+Underfull \hbox (badness 10000) in paragraph at lines 72--73
 
  []
 
@@ -252,7 +262,7 @@ Hoofdstuk 7.
 ]
 Hoofdstuk 8.
 
-Underfull \hbox (badness 10000) in paragraph at lines 91--95
+Underfull \hbox (badness 10000) in paragraph at lines 97--101
 
  []
 
@@ -262,17 +272,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 91--95
 ] [10]
 Hoofdstuk 9.
 
-Underfull \hbox (badness 10000) in paragraph at lines 164--174
+Underfull \hbox (badness 10000) in paragraph at lines 170--180
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 164--174
+Underfull \hbox (badness 10000) in paragraph at lines 170--180
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 164--174
+Underfull \hbox (badness 10000) in paragraph at lines 170--180
 
  []
 
@@ -286,10 +296,10 @@ Hoofdstuk 10.
 
 ] (build/pva.aux) ) 
 Here is how much of TeX's memory you used:
- 2348 strings out of 493304
- 32288 string characters out of 6139870
+ 2350 strings out of 493304
+ 32316 string characters out of 6139870
  98414 words of memory out of 5000000
- 5786 multiletter control sequences out of 15000+600000
+ 5788 multiletter control sequences out of 15000+600000
  7705 words of font info for 28 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  38i,6n,31p,267b,239s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -300,7 +310,7 @@ m/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx
 hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/te
 xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/
 texmf-dist/fonts/type1/public/eurosym/feymr10.pfb>
-Output written on build/pva.pdf (13 pages, 99817 bytes).
+Output written on build/pva.pdf (13 pages, 100559 bytes).
 PDF statistics:
  75 PDF objects out of 1000 (max. 8388607)
  52 compressed objects within 1 object stream
