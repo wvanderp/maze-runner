@@ -7,5 +7,5 @@
 \contentsline {chapter}{\numberline {6}Kwaliteit}{9}
 \contentsline {chapter}{\numberline {7}Projectorganisatie}{10}
 \contentsline {chapter}{\numberline {8}Planning}{14}
-\contentsline {chapter}{\numberline {9}Kosten en Baten}{16}
-\contentsline {chapter}{\numberline {10}risico's}{17}
+\contentsline {chapter}{\numberline {9}Kosten en Baten}{17}
+\contentsline {chapter}{\numberline {10}risico's}{18}
