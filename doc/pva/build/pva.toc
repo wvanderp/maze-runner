@@ -2,18 +2,10 @@
 \contentsline {chapter}{\numberline {1}achtergrond}{2}
 \contentsline {chapter}{\numberline {2}projectresultaat}{3}
 \contentsline {chapter}{\numberline {3}projectactiviteiten}{4}
-\contentsline {chapter}{\numberline {4}projectgrnezen}{6}
-\contentsline {chapter}{\numberline {5}tussenresultaten}{7}
-\contentsline {chapter}{\numberline {6}Kwaliteit}{8}
-\contentsline {chapter}{\numberline {7}Projectorganisatie}{9}
-\contentsline {section}{\numberline {7.1}Algemeen}{9}
-\contentsline {section}{\numberline {7.2}Stakeholders}{9}
-\contentsline {section}{\numberline {7.3}Communicatie}{10}
-\contentsline {section}{\numberline {7.4}Archivering}{10}
-\contentsline {section}{\numberline {7.5}Het Team}{10}
-\contentsline {section}{\numberline {7.6}Taakverdeling}{11}
-\contentsline {section}{\numberline {7.7}Beschikbaarheid}{12}
-\contentsline {section}{\numberline {7.8}Bevoegdheden}{12}
-\contentsline {chapter}{\numberline {8}Planning}{13}
-\contentsline {chapter}{\numberline {9}Kosten en Baten}{15}
-\contentsline {chapter}{\numberline {10}risico's}{16}
+\contentsline {chapter}{\numberline {4}projectgrnezen}{7}
+\contentsline {chapter}{\numberline {5}tussenresultaten}{8}
+\contentsline {chapter}{\numberline {6}Kwaliteit}{9}
+\contentsline {chapter}{\numberline {7}Projectorganisatie}{10}
+\contentsline {chapter}{\numberline {8}Planning}{14}
+\contentsline {chapter}{\numberline {9}Kosten en Baten}{16}
+\contentsline {chapter}{\numberline {10}risico's}{17}
