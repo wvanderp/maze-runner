@@ -1,0 +1,36 @@
+Risico's
+
+Bij risico's kan onderscheid worden gemaakt tussen interne
+en externe risico's.
+
+Interne risico's:
+
+-  Haalbaarheid van het project; Het kan voorkomen dat de gestelde
+   tijd niet genoeg is om het project af te ronden.
+
+-  Iemand die bijvoorbeeld door ziekte niet meer in staat is om het project af te ronden.
+   Dan moeten de overgebleven groepsleden extra taken overnemen. 
+
+-  Projectleden die niet meer met elkaar kunnen of willen samenwerken.
+
+-  Technische risico's; Foute keuze van hardware onderdelen die 
+   aan het einde van het project niet meer functioneren. Ook valt hier te denken aan het slecht bouwen van het prototype of het niet goed nadenken hierover.
+
+-  Afhankelijkheid  van andere taken; als de taak 'bouwen van het prototype' door de
+   bouwers niet op tijd gereed is, kan de taak 'software programmeren' door de programmeurs niet beginnen.
+ 
+
+Externe risico's:
+
+-  Onvoldoende tijd voor besluitvorming
+
+-  Onduidelijke projectgrenzen. 
+
+-  Veranderingen met betrekking tot de doelstelling kunnen negatieve gevolgen hebben voor het plan van aanpak.
+   Dit brengt veel wijzigingen zich mee om het plan van aanpak relevant te houden aan de nieuwe
+   doelstelling. 
+
+-  De leveringstijd van de materialen kan langer duren dan verwacht aangezien wij met meerdere hardware
+   onderdelen mogen werken bij dit project.   
+  
+  
