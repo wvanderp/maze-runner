@@ -1,7 +1,8 @@
 /* Code for activity bot v0.4 */
 //psuedo code v0.4
 //in deze method heb je de "keep drive forward" en een if statement, als de ultrasound detecteert dat de afstand equal is aan 7 cm wordt de method check aangeroepen.
-methode drive{
+methode drive
+{
  
 	if{ 7 cm )
 	{
@@ -16,7 +17,8 @@ methode drive{
  }
  
  //infra-red, this will be used as a boolean type "true or false" to check both sides and from there it will make a decision and turn from there it will turn 90 degrees.
-method check{
+method check
+{
 	
 	if( left == true && right != true ) //if left is true and only left
 	{
@@ -39,7 +41,10 @@ method check{
 		//turn 90 degrees to the left
 	}
 	
-	call methode drive;
+	
  }
+ 
+ method waitABit
+ 
 
 }
