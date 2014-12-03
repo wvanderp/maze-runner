@@ -1,11 +1,11 @@
 \select@language {dutch}
-\contentsline {chapter}{\numberline {1}achtergrond}{2}
-\contentsline {chapter}{\numberline {2}projectresultaat}{3}
-\contentsline {chapter}{\numberline {3}projectactiviteiten}{4}
-\contentsline {chapter}{\numberline {4}projectgrnezen}{7}
-\contentsline {chapter}{\numberline {5}tussenresultaten}{8}
+\contentsline {chapter}{\numberline {1}Achtergrond}{2}
+\contentsline {chapter}{\numberline {2}Projectresultaat}{3}
+\contentsline {chapter}{\numberline {3}Projectactiviteiten}{4}
+\contentsline {chapter}{\numberline {4}Projectgrenzen}{7}
+\contentsline {chapter}{\numberline {5}Tussenresultaten}{8}
 \contentsline {chapter}{\numberline {6}Kwaliteit}{9}
 \contentsline {chapter}{\numberline {7}Projectorganisatie}{10}
 \contentsline {chapter}{\numberline {8}Planning}{14}
 \contentsline {chapter}{\numberline {9}Kosten en Baten}{17}
-\contentsline {chapter}{\numberline {10}risico's}{18}
+\contentsline {chapter}{\numberline {10}Risico's}{18}
