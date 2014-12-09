@@ -1,0 +1,1428 @@
+diff --git a/doc/Stukken van nichelle/.~lock.Planning.docx# b/doc/Stukken van nichelle/.~lock.Planning.docx#
+new file mode 100644
+index 0000000..b927221
+--- /dev/null
++++ b/doc/Stukken van nichelle/.~lock.Planning.docx#	
+@@ -0,0 +1 @@
++walter ,walter,walter-HP-ProBook-4520s,09.12.2014 21:13,file:///home/walter/.config/libreoffice/4;
+\ No newline at end of file
+diff --git a/doc/Stukken van nichelle/Activiteitentabel.docx b/doc/Stukken van nichelle/Activiteitentabel.docx
+deleted file mode 100644
+index e45c0fe..0000000
+Binary files a/doc/Stukken van nichelle/Activiteitentabel.docx and /dev/null differ
+diff --git a/doc/Stukken van nichelle/Planning.docx b/doc/Stukken van nichelle/Planning.docx
+new file mode 100644
+index 0000000..65199c5
+Binary files /dev/null and b/doc/Stukken van nichelle/Planning.docx differ
+diff --git a/doc/Stukken van nichelle/Projectactiviteiten.docx b/doc/Stukken van nichelle/Projectactiviteiten.docx
+index 548e775..55dfde7 100644
+Binary files a/doc/Stukken van nichelle/Projectactiviteiten.docx and b/doc/Stukken van nichelle/Projectactiviteiten.docx differ
+diff --git a/doc/Stukken van nichelle/netwerkplanning.png b/doc/Stukken van nichelle/netwerkplanning.png
+new file mode 100644
+index 0000000..4d05393
+Binary files /dev/null and b/doc/Stukken van nichelle/netwerkplanning.png differ
+diff --git a/doc/Stukken van nichelle/strokenplanning.jpg b/doc/Stukken van nichelle/strokenplanning.jpg
+deleted file mode 100644
+index a8672ca..0000000
+Binary files a/doc/Stukken van nichelle/strokenplanning.jpg and /dev/null differ
+diff --git a/doc/Stukken van nichelle/strokenplanning.png b/doc/Stukken van nichelle/strokenplanning.png
+new file mode 100644
+index 0000000..a8cb541
+Binary files /dev/null and b/doc/Stukken van nichelle/strokenplanning.png differ
+diff --git a/doc/Stukken van nichelle/weekplanning.docx b/doc/Stukken van nichelle/weekplanning.docx
+deleted file mode 100644
+index d6eaf2d..0000000
+Binary files a/doc/Stukken van nichelle/weekplanning.docx and /dev/null differ
+diff --git a/doc/Stukken van victor/.~lock.Risicoanalyse.docx# b/doc/Stukken van victor/.~lock.Risicoanalyse.docx#
+index 86f69a1..c4cbd3b 100644
+--- a/doc/Stukken van victor/.~lock.Risicoanalyse.docx#	
++++ b/doc/Stukken van victor/.~lock.Risicoanalyse.docx#	
+@@ -1 +1 @@
+-walter ,walter,walter-HP-ProBook-4520s,03.12.2014 23:09,file:///home/walter/.config/libreoffice/4;
+\ No newline at end of file
++walter ,walter,walter-HP-ProBook-4520s,09.12.2014 22:14,file:///home/walter/.config/libreoffice/4;
+\ No newline at end of file
+diff --git a/doc/Stukken van victor/.~lock.kosten en baten.rtf# b/doc/Stukken van victor/.~lock.kosten en baten.rtf#
+new file mode 100644
+index 0000000..02f1f9c
+--- /dev/null
++++ b/doc/Stukken van victor/.~lock.kosten en baten.rtf#	
+@@ -0,0 +1 @@
++walter ,walter,walter-HP-ProBook-4520s,09.12.2014 22:21,file:///home/walter/.config/libreoffice/4;
+\ No newline at end of file
+diff --git a/doc/Stukken van victor/Risicoanalyse.docx b/doc/Stukken van victor/Risicoanalyse.docx
+index 1851bc8..caef6c8 100644
+Binary files a/doc/Stukken van victor/Risicoanalyse.docx and b/doc/Stukken van victor/Risicoanalyse.docx differ
+diff --git a/doc/Stukken van victor/kosten en baten.rtf b/doc/Stukken van victor/kosten en baten.rtf
+index 06460df..9256664 100644
+Binary files a/doc/Stukken van victor/kosten en baten.rtf and b/doc/Stukken van victor/kosten en baten.rtf differ
+diff --git a/doc/kwaliteit.docx b/doc/kwaliteit.docx
+index e7982bb..6bce838 100644
+Binary files a/doc/kwaliteit.docx and b/doc/kwaliteit.docx differ
+diff --git a/doc/pva/build/pva.aux b/doc/pva/build/pva.aux
+index c03d04d..1f1ef11 100644
+--- a/doc/pva/build/pva.aux
++++ b/doc/pva/build/pva.aux
+@@ -28,9 +28,9 @@
+ \@writefile{toc}{\contentsline {chapter}{\numberline {8}Planning}{14}}
+ \@writefile{lof}{\addvspace {10\p@ }}
+ \@writefile{lot}{\addvspace {10\p@ }}
+-\@writefile{toc}{\contentsline {chapter}{\numberline {9}Kosten en Baten}{17}}
++\@writefile{toc}{\contentsline {chapter}{\numberline {9}Kosten en Baten}{16}}
+ \@writefile{lof}{\addvspace {10\p@ }}
+ \@writefile{lot}{\addvspace {10\p@ }}
+-\@writefile{toc}{\contentsline {chapter}{\numberline {10}Risico's}{18}}
++\@writefile{toc}{\contentsline {chapter}{\numberline {10}Risico's}{17}}
+ \@writefile{lof}{\addvspace {10\p@ }}
+ \@writefile{lot}{\addvspace {10\p@ }}
+diff --git a/doc/pva/build/pva.log b/doc/pva/build/pva.log
+index d509a52..b10378d 100644
+--- a/doc/pva/build/pva.log
++++ b/doc/pva/build/pva.log
+@@ -1,4 +1,4 @@
+-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.11.20)  3 DEC 2014 23:56
++This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.11.20)  9 DEC 2014 22:33
+ entering extended mode
+  restricted \write18 enabled.
+  %&-line parsing enabled.
+@@ -91,35 +91,48 @@ Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
+ (/usr/share/texlive/texmf-dist/tex/latex/eurosym/eurosym.sty
+ Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
+ \@eurobox=\box27
+-) (build/pva.aux)
++)
++(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
++Package: float 2001/11/08 v1.3d Float enhancements (AL)
++\c@float@type=\count90
++\float@exts=\toks16
++\float@box=\box28
++\@float@everytoks=\toks17
++\@floatcapt=\box29
++)
++(/usr/share/texlive/texmf-dist/tex/latex/changepage/changepage.sty
++Package: changepage 2009/10/20 v1.0c check page and change page layout
++\c@cp@cntr=\count91
++\cp@tempcnt=\count92
++)
++(build/pva.aux)
+ \openout1 = `pva.aux'.
+ 
+-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
+-LaTeX Font Info:    ... okay on input line 34.
+-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
+-LaTeX Font Info:    ... okay on input line 34.
+-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
+-LaTeX Font Info:    ... okay on input line 34.
+-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
+-LaTeX Font Info:    ... okay on input line 34.
+-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
+-LaTeX Font Info:    ... okay on input line 34.
+-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
+-LaTeX Font Info:    ... okay on input line 34.
+-
+-(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
++LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
++LaTeX Font Info:    ... okay on input line 37.
++LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
++LaTeX Font Info:    ... okay on input line 37.
++LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
++LaTeX Font Info:    ... okay on input line 37.
++LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
++LaTeX Font Info:    ... okay on input line 37.
++LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
++LaTeX Font Info:    ... okay on input line 37.
++LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
++LaTeX Font Info:    ... okay on input line 37.
++ (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+ [Loading MPS to PDF converter (version 2006.09.02).]
+-\scratchcounter=\count90
++\scratchcounter=\count93
+ \scratchdimen=\dimen111
+-\scratchbox=\box28
+-\nofMPsegments=\count91
+-\nofMParguments=\count92
+-\everyMPshowfont=\toks16
+-\MPscratchCnt=\count93
++\scratchbox=\box30
++\nofMPsegments=\count94
++\nofMParguments=\count95
++\everyMPshowfont=\toks18
++\MPscratchCnt=\count96
+ \MPscratchDim=\dimen112
+-\MPnumerator=\count94
+-\makeMPintoPDFobject=\count95
+-\everyMPtoPDFconversion=\toks17
++\MPnumerator=\count97
++\makeMPintoPDFobject=\count98
++\everyMPtoPDFconversion=\toks19
+ ) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+ Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+ )
+@@ -169,11 +182,11 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+ e
+ ))
+ LaTeX Font Info:    External font `cmex10' loaded for size
+-(Font)              <12> on input line 35.
++(Font)              <12> on input line 38.
+ LaTeX Font Info:    External font `cmex10' loaded for size
+-(Font)              <8> on input line 35.
++(Font)              <8> on input line 38.
+ LaTeX Font Info:    External font `cmex10' loaded for size
+-(Font)              <6> on input line 35.
++(Font)              <6> on input line 38.
+ 
+ [1
+ 
+@@ -187,23 +200,23 @@ LaTeX Font Info:    External font `cmex10' loaded for size
+ ]
+ Hoofdstuk 1.
+ 
+-Underfull \hbox (badness 10000) in paragraph at lines 42--46
++Underfull \hbox (badness 10000) in paragraph at lines 45--49
+ 
+  []
+ 
+-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 47.
++LaTeX Font Info:    Try loading font information for OMS+cmr on input line 50.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+ File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+ )
+ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 47.
++(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 50.
+ 
+-Underfull \hbox (badness 10000) in paragraph at lines 53--58
++Underfull \hbox (badness 10000) in paragraph at lines 56--61
+ 
+  []
+ 
+ 
+-Underfull \hbox (badness 10000) in paragraph at lines 53--58
++Underfull \hbox (badness 10000) in paragraph at lines 56--61
+ 
+  []
+ 
+@@ -212,7 +225,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 53--58
+ ]
+ Hoofdstuk 2.
+ 
+-Underfull \hbox (badness 10000) in paragraph at lines 61--65
++Underfull \hbox (badness 10000) in paragraph at lines 68--72
+ 
+  []
+ 
+@@ -247,13 +260,13 @@ Missing character: There is no 
+ Missing character: There is no Ä in font cmr10!
+ Missing character: There is no ù in font cmr10!
+ LaTeX Font Info:    External font `cmex10' loaded for size
+-(Font)              <7> on input line 132.
++(Font)              <7> on input line 139.
+ LaTeX Font Info:    External font `cmex10' loaded for size
+-(Font)              <5> on input line 132.
++(Font)              <5> on input line 139.
+ Missing character: There is no √ in font cmr10!
+ Missing character: There is no ° in font cmr10!
+ 
+-Overfull \hbox (1.69502pt too wide) in paragraph at lines 132--145
++Overfull \hbox (1.69502pt too wide) in paragraph at lines 139--152
+ [][] 
+  []
+ 
+@@ -265,12 +278,12 @@ LaTeX Warning: `h' float specifier changed to `ht'.
+ ] [6]
+ Hoofdstuk 4.
+ 
+-Underfull \hbox (badness 10000) in paragraph at lines 149--156
++Underfull \hbox (badness 10000) in paragraph at lines 156--163
+ 
+  []
+ 
+ 
+-Underfull \hbox (badness 10000) in paragraph at lines 163--178
++Underfull \hbox (badness 10000) in paragraph at lines 170--186
+ 
+  []
+ 
+@@ -285,22 +298,27 @@ Hoofdstuk 5.
+ ]
+ Hoofdstuk 6.
+ 
+-Underfull \hbox (badness 10000) in paragraph at lines 199--200
++Underfull \hbox (badness 10000) in paragraph at lines 215--216
+ 
+  []
+ 
+ 
+-Underfull \hbox (badness 10000) in paragraph at lines 201--202
++Underfull \hbox (badness 10000) in paragraph at lines 217--218
+ 
+  []
+ 
+ 
+-Underfull \hbox (badness 10000) in paragraph at lines 203--204
++Underfull \hbox (badness 10000) in paragraph at lines 219--220
+ 
+  []
+ 
+ 
+-Underfull \hbox (badness 10000) in paragraph at lines 205--206
++Underfull \hbox (badness 10000) in paragraph at lines 221--222
++
++ []
++
++
++Underfull \hbox (badness 10000) in paragraph at lines 223--224
+ 
+  []
+ 
+@@ -310,17 +328,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 205--206
+ ]
+ Hoofdstuk 7.
+ 
+-Underfull \hbox (badness 10000) in paragraph at lines 224--239
++Underfull \hbox (badness 10000) in paragraph at lines 240--255
+ 
+  []
+ 
+ 
+-Underfull \hbox (badness 10000) in paragraph at lines 224--239
++Underfull \hbox (badness 10000) in paragraph at lines 240--255
+ 
+  []
+ 
+ 
+-Underfull \hbox (badness 10000) in paragraph at lines 224--239
++Underfull \hbox (badness 10000) in paragraph at lines 240--255
+ 
+  []
+ 
+@@ -328,40 +346,40 @@ Underfull \hbox (badness 10000) in paragraph at lines 224--239
+ 
+ 
+ ]
+-Underfull \hbox (badness 10000) in paragraph at lines 241--253
++Underfull \hbox (badness 10000) in paragraph at lines 257--267
+ 
+  []
+ 
+ 
+-Underfull \hbox (badness 10000) in paragraph at lines 241--253
++Underfull \hbox (badness 10000) in paragraph at lines 257--267
+ 
+  []
+ 
+ 
+-Overfull \hbox (24.5008pt too wide) in paragraph at lines 241--253
++Overfull \hbox (24.5008pt too wide) in paragraph at lines 257--267
+ \OT1/cmr/m/n/10 pro-ject-lei-der gaat via email, de te-le-foon, via ver-ga-de-r
+ in-gen/bijeenkomsten(mondeling)
+  []
+ 
+ 
+-Underfull \hbox (badness 10000) in paragraph at lines 265--278
++Underfull \hbox (badness 10000) in paragraph at lines 279--292
+ 
+  []
+ 
+ 
+-Underfull \hbox (badness 10000) in paragraph at lines 265--278
++Underfull \hbox (badness 10000) in paragraph at lines 279--292
+ 
+  []
+ 
+ [11
+ 
+ ]
+-Underfull \hbox (badness 10000) in paragraph at lines 279--299
++Underfull \hbox (badness 10000) in paragraph at lines 293--313
+ 
+  []
+ 
+ 
+-Underfull \hbox (badness 10000) in paragraph at lines 279--299
++Underfull \hbox (badness 10000) in paragraph at lines 293--313
+ 
+  []
+ 
+@@ -372,7 +390,7 @@ Missing character: There is no 
+ Missing character: There is no Ä in font cmr10!
+ Missing character: There is no ù in font cmr10!
+ 
+-Overfull \hbox (28.50073pt too wide) in paragraph at lines 316--319
++Overfull \hbox (28.50073pt too wide) in paragraph at lines 330--333
+ \OT1/cmr/m/n/10 De pro-gram-meur is ver-ant-woor-de-lijk voor het pro-gram-me-r
+ en van de Activitybot/Maze-
+  []
+@@ -389,192 +407,176 @@ Missing character: There is no 
+  [13]
+ Hoofdstuk 8.
+ 
+-Underfull \hbox (badness 10000) in paragraph at lines 331--333
+-
+- []
+-
+-
+-Underfull \hbox (badness 10000) in paragraph at lines 338--339
+-
+- []
+-
+-
+-Underfull \hbox (badness 10000) in paragraph at lines 342--343
+-
+- []
+-
+-
+-Underfull \hbox (badness 10000) in paragraph at lines 347--349
+-
+- []
+-
+-
+-Underfull \hbox (badness 10000) in paragraph at lines 353--354
+-
+- []
+-
+-
+-Underfull \hbox (badness 10000) in paragraph at lines 357--358
+-
++Overfull \hbox (123.46562pt too wide) in paragraph at lines 346--385
++[][] 
+  []
+ 
+ [14
+ 
+ 
+ ]
+-Underfull \hbox (badness 10000) in paragraph at lines 362--364
+-
++Overfull \hbox (107.2497pt too wide) in paragraph at lines 388--412
++[][] 
+  []
+ 
+ 
+-Underfull \hbox (badness 10000) in paragraph at lines 368--369
+-
++Overfull \hbox (31.77837pt too wide) in paragraph at lines 414--427
++[] 
+  []
+ 
++[15
+ 
+-Underfull \hbox (badness 10000) in paragraph at lines 372--373
+-
+- []
+-
++]
++Hoofdstuk 9.
+ 
+-Underfull \hbox (badness 10000) in paragraph at lines 377--379
++Underfull \hbox (badness 10000) in paragraph at lines 431--433
+ 
+  []
+ 
+ 
+-Underfull \hbox (badness 10000) in paragraph at lines 382--383
++Underfull \hbox (badness 10000) in paragraph at lines 434--435
+ 
+  []
+ 
+ 
+-Underfull \hbox (badness 10000) in paragraph at lines 386--387
++Underfull \hbox (badness 10000) in paragraph at lines 436--445
+ 
+  []
+ 
+ 
+-Underfull \hbox (badness 10000) in paragraph at lines 392--394
++Underfull \hbox (badness 10000) in paragraph at lines 436--445
+ 
+  []
+ 
+ 
+-Underfull \hbox (badness 10000) in paragraph at lines 401--403
++Underfull \hbox (badness 10000) in paragraph at lines 436--445
+ 
+  []
+ 
+-[15
+ 
+-]
+-Underfull \hbox (badness 10000) in paragraph at lines 410--412
++Underfull \hbox (badness 10000) in paragraph at lines 449--450
+ 
+  []
+ 
+ 
+-Underfull \hbox (badness 10000) in paragraph at lines 419--421
++Underfull \hbox (badness 10000) in paragraph at lines 451--454
+ 
+  []
+ 
+ 
+-Underfull \hbox (badness 10000) in paragraph at lines 429--431
++Underfull \hbox (badness 10000) in paragraph at lines 455--458
+ 
+  []
+ 
+-[16]
+-Hoofdstuk 9.
++[16
+ 
+-Underfull \hbox (badness 10000) in paragraph at lines 439--441
+-
+- []
+ 
++]
++Hoofdstuk 10.
++Missing character: There is no ‚ in font cmr10!
++Missing character: There is no Ä in font cmr10!
++Missing character: There is no ô in font cmr10!
+ 
+-Underfull \hbox (badness 10000) in paragraph at lines 442--453
++Underfull \hbox (badness 10000) in paragraph at lines 466--467
+ 
+  []
+ 
+-
+-Underfull \hbox (badness 10000) in paragraph at lines 442--453
+-
+- []
++Missing character: There is no √ in font cmr10!
++Missing character: There is no ´ in font cmr10!
++[17
+ 
+ 
+-Underfull \hbox (badness 10000) in paragraph at lines 442--453
++]
++Missing character: There is no √ in font cmr10!
++Missing character: There is no ´ in font cmr10!
++ [18
+ 
+- []
++] <image/graph.png, id=70, 447.92343pt x 277.78781pt>
++File: image/graph.png Graphic file (type png)
+ 
++<use image/graph.png>
++Package pdftex.def Info: image/graph.png used on input line 518.
++(pdftex.def)             Requested size: 358.33922pt x 222.23053pt.
++ <image/table.png, id=71, 610.28pt x 255.95625pt>
++File: image/table.png Graphic file (type png)
+ 
+-Underfull \hbox (badness 10000) in paragraph at lines 442--453
++<use image/table.png>
++Package pdftex.def Info: image/table.png used on input line 522.
++(pdftex.def)             Requested size: 457.70888pt x 191.9667pt.
+ 
++Overfull \hbox (28.33922pt too wide) in paragraph at lines 518--523
++[][] 
+  []
+ 
+ 
+-Underfull \hbox (badness 10000) in paragraph at lines 458--459
++Underfull \hbox (badness 10000) in paragraph at lines 518--523
+ 
+  []
+ 
+ 
+-Underfull \hbox (badness 10000) in paragraph at lines 460--463
++Underfull \hbox (badness 10000) in paragraph at lines 518--523
+ 
+  []
+ 
+ 
+-Underfull \hbox (badness 10000) in paragraph at lines 464--467
+-
++Overfull \hbox (112.70888pt too wide) in paragraph at lines 518--523
++[] 
+  []
+ 
+-[17
++[19
++
++ <./image/graph.png (PNG copy)> <./image/table.png (PNG copy)>] [20
+ 
+ 
+ ]
+-Hoofdstuk 10.
+-<graph.png, id=66, 447.92343pt x 277.78781pt>
+-File: graph.png Graphic file (type png)
+- <use graph.png>
+-Package pdftex.def Info: graph.png used on input line 494.
+-(pdftex.def)             Requested size: 447.92233pt x 277.78711pt.
+-
+-<table.png, id=67, 495.35063pt x 255.20343pt>
+-File: table.png Graphic file (type png)
+- <use table.png>
+-Package pdftex.def Info: table.png used on input line 497.
+-(pdftex.def)             Requested size: 371.51207pt x 191.4021pt.
+-
+-Overfull \hbox (102.92233pt too wide) in paragraph at lines 494--498
+-[] 
+- []
++<image/netwerkplanning.png, id=78, 1410.26875pt x 943.525pt>
++File: image/netwerkplanning.png Graphic file (type png)
++
++<use image/netwerkplanning.png>
++Package pdftex.def Info: image/netwerkplanning.png used on input line 528.
++(pdftex.def)             Requested size: 493.60146pt x 330.2387pt.
+ 
++<image/strokenplanning.png, id=79, 1990.43625pt x 636.3775pt>
++File: image/strokenplanning.png Graphic file (type png)
+ 
+-Underfull \hbox (badness 10000) in paragraph at lines 494--498
++<use image/strokenplanning.png>
++Package pdftex.def Info: image/strokenplanning.png used on input line 529.
++(pdftex.def)             Requested size: 497.60785pt x 159.09398pt.
+ 
++Overfull \hbox (63.2432pt too wide) in paragraph at lines 528--530
++[][]
+  []
+ 
+ 
+-Overfull \hbox (26.51207pt too wide) in paragraph at lines 494--498
++Overfull \hbox (67.24959pt too wide) in paragraph at lines 528--530
+ [] 
+  []
+ 
+-[18
++[21
+ 
++ <./image/netwerkplanning.png (PNG copy)> <./image/strokenplanning.png (PNG cop
++y)>] [22
+ 
+-] [19 <./graph.png (PNG copy)> <./table.png (PNG copy)>] (build/pva.aux) ) 
++] (build/pva.aux) ) 
+ Here is how much of TeX's memory you used:
+- 2368 strings out of 493304
+- 32545 string characters out of 6139870
+- 102447 words of memory out of 5000000
+- 5804 multiletter control sequences out of 15000+600000
+- 8194 words of font info for 29 fonts, out of 8000000 for 9000
++ 2482 strings out of 493304
++ 34347 string characters out of 6139870
++ 107577 words of memory out of 5000000
++ 5907 multiletter control sequences out of 15000+600000
++ 8800 words of font info for 31 fonts, out of 8000000 for 9000
+  957 hyphenation exceptions out of 8191
+- 38i,13n,31p,292b,251s stack positions out of 5000i,500n,10000p,200000b,80000s
+-</usr
+-/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share
+-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texli
+-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texm
+-f-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/
+-fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/t
+-ype1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+-lic/amsfonts/cm/cmsy10.pfb>
+-Output written on build/pva.pdf (20 pages, 160516 bytes).
++ 38i,13n,31p,292b,260s stack positions out of 5000i,500n,10000p,200000b,80000s
++</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
++m/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx
++12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
++</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/s
++hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/te
++xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/te
++xmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
++Output written on build/pva.pdf (23 pages, 257336 bytes).
+ PDF statistics:
+- 99 PDF objects out of 1000 (max. 8388607)
+- 67 compressed objects within 1 object stream
++ 110 PDF objects out of 1000 (max. 8388607)
++ 73 compressed objects within 1 object stream
+  0 named destinations out of 1000 (max. 500000)
+- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
++ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 
+diff --git a/doc/pva/build/pva.pdf b/doc/pva/build/pva.pdf
+index 712c332..b3a0bac 100644
+Binary files a/doc/pva/build/pva.pdf and b/doc/pva/build/pva.pdf differ
+diff --git a/doc/pva/build/pva.synctex.gz b/doc/pva/build/pva.synctex.gz
+index 224a0b5..b9e062a 100644
+Binary files a/doc/pva/build/pva.synctex.gz and b/doc/pva/build/pva.synctex.gz differ
+diff --git a/doc/pva/build/pva.toc b/doc/pva/build/pva.toc
+index c815fca..10d5dfa 100644
+--- a/doc/pva/build/pva.toc
++++ b/doc/pva/build/pva.toc
+@@ -7,5 +7,5 @@
+ \contentsline {chapter}{\numberline {6}Kwaliteit}{9}
+ \contentsline {chapter}{\numberline {7}Projectorganisatie}{10}
+ \contentsline {chapter}{\numberline {8}Planning}{14}
+-\contentsline {chapter}{\numberline {9}Kosten en Baten}{17}
+-\contentsline {chapter}{\numberline {10}Risico's}{18}
++\contentsline {chapter}{\numberline {9}Kosten en Baten}{16}
++\contentsline {chapter}{\numberline {10}Risico's}{17}
+diff --git a/doc/pva/graph.png b/doc/pva/graph.png
+deleted file mode 100644
+index 8ea5145..0000000
+Binary files a/doc/pva/graph.png and /dev/null differ
+diff --git a/doc/pva/image/graph.png b/doc/pva/image/graph.png
+new file mode 100644
+index 0000000..8ea5145
+Binary files /dev/null and b/doc/pva/image/graph.png differ
+diff --git a/doc/pva/image/netwerkplanning.png b/doc/pva/image/netwerkplanning.png
+new file mode 100644
+index 0000000..4d05393
+Binary files /dev/null and b/doc/pva/image/netwerkplanning.png differ
+diff --git a/doc/pva/image/strokenplanning.png b/doc/pva/image/strokenplanning.png
+new file mode 100644
+index 0000000..a8cb541
+Binary files /dev/null and b/doc/pva/image/strokenplanning.png differ
+diff --git a/doc/pva/image/table.png b/doc/pva/image/table.png
+new file mode 100644
+index 0000000..1a9e2e1
+Binary files /dev/null and b/doc/pva/image/table.png differ
+diff --git a/doc/pva/pva.log b/doc/pva/pva.log
+new file mode 100644
+index 0000000..d506963
+--- /dev/null
++++ b/doc/pva/pva.log
+@@ -0,0 +1,108 @@
++This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.12.8)  8 DEC 2014 16:53
++entering extended mode
++**C:/Users/Stefan/Documents/maze-runner/doc/pva/pva.tex
++(C:/Users/Stefan/Documents/maze-runner/doc/pva/pva.tex
++LaTeX2e <2011/06/27>
++Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
++abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
++croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
++lician, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, iceland
++ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
++ lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
++german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
++ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
++an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
++ishmax, welsh, loaded.
++("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\book.cls"
++Document Class: book 2007/10/19 v1.4h Standard LaTeX document class
++("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\bk10.clo"
++File: bk10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
++)
++\c@part=\count79
++\c@chapter=\count80
++\c@section=\count81
++\c@subsection=\count82
++\c@subsubsection=\count83
++\c@paragraph=\count84
++\c@subparagraph=\count85
++\c@figure=\count86
++\c@table=\count87
++\abovecaptionskip=\skip41
++\belowcaptionskip=\skip42
++\bibindent=\dimen102
++)
++("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
++Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
++
++("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
++Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
++\KV@toks@=\toks14
++)
++("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
++Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
++
++("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
++Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
++)
++("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
++File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
++)
++Package graphics Info: Driver file: pdftex.def on input line 91.
++
++("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
++File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
++
++("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
++Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
++)
++("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
++Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
++)
++\Gread@gobject=\count88
++))
++\Gin@req@height=\dimen103
++\Gin@req@width=\dimen104
++)
++("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.sty"
++Package: babel 2008/07/08 v3.8m The Babel package
++
++*************************************
++* Local config file bblopts.cfg used
++*
++("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\bblopts.cfg"
++File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
++)
++("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\dutch.ldf"
++Language: dutch 2005/03/30 v3.8i Dutch support from the babel system
++
++("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.def"
++File: babel.def 2008/07/08 v3.8m Babel common definitions
++\babel@savecnt=\count89
++\U@D=\dimen105
++)
++Package babel Info: Making " an active character on input line 132.
++))
++
++! LaTeX Error: File `tocbibind.sty' not found.
++
++Type X to quit or <RETURN> to proceed,
++or enter new name. (Default extension: sty)
++
++Enter file name: 
++! Emergency stop.
++<read *> 
++         
++l.7 \usepackage
++               {titlesec}
++End of file on the terminal!
++
++ 
++Here is how much of TeX's memory you used:
++ 1136 strings out of 493921
++ 14685 string characters out of 3144873
++ 70932 words of memory out of 3000000
++ 4481 multiletter control sequences out of 15000+200000
++ 3640 words of font info for 14 fonts, out of 3000000 for 9000
++ 841 hyphenation exceptions out of 8191
++ 27i,0n,24p,286b,36s stack positions out of 5000i,500n,10000p,200000b,50000s
++!  ==> Fatal error occurred, no output PDF file produced!
+diff --git a/doc/pva/pva.tex b/doc/pva/pva.tex
+index aba5adb..aacea09 100644
+--- a/doc/pva/pva.tex
++++ b/doc/pva/pva.tex
+@@ -7,6 +7,9 @@
+ \usepackage{titlesec}
+ \usepackage[official]{eurosym}
+ \usepackage{graphicx}
++\usepackage{float}
++
++\usepackage{changepage}
+ 
+ %\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+ %\newcommand{\tab}[1]{\hspace{.25\textwidth}\rlap{#1}}
+@@ -39,9 +42,9 @@ maze-runner\\
+ \chapter{Achtergrond}
+ 
+ %stakeholders Elvira(FIXME), van der Ven 
+-De Rotterdamse hogeschool heeft ons de verbale en schriftelijke opdracht gegeven om een robot te bouwen die een doolhof kan doorkruisen.\\
+-Later werd hier aan toegevoegd de robot  ook moet komen die tot een afgrond moet kunnen rijden.\\
+-Dit moet gebeuren in de snelste tijd. er is niet aangegeven of dat dit project deel is van een groter project.\\
++De Rotterdamse Hogeschool heeft ons de verbale en schriftelijke opdracht gegeven om een robot te bouwen die een doolhof kan doorkruisen.\\
++Later werd hier aan toegevoegd dat de robot ook tot het randje van een afgrond moet kunnen rijden.\\
++Dit moet gebeuren in de snelste tijd. Er is niet aangegeven of dit project deel is van een groter project.\\
+ het team, bestaande uit:\\
+ \begin{itemize}
+ 	\item Wouter van der Plas (Teamleider)
+@@ -54,14 +57,22 @@ Dit is de eerste keer dat deze groep in deze samenstelling werkt en samen een pr
+ \\
+ De naam komt van de film Maze Runner. Wij vonden dit passen om dat dit ook over een doolhof gaat.\\
+ \\
+-de stakeholders bestaan uit de projectgroep en de opdrachtgevers: mevrouw E. van der Ven en mevrouw L. Muilwijk.
++De stakeholders bestaan uit de projectgroep en de opdrachtgevers: mevrouw E. van der Ven en mevrouw L. Muilwijk.
+ 
+ \clearpage
+ \chapter{Projectresultaat}
+-Het maze-runner team gaat binnen de komende acht weken een werkende robot opleveren(plus documentatie) die rijdend een doolhof doorkruist met behulp van een of meerdere sensoren (Challenge A), al het materiaal dat gebruikt wordt is verleend door de Hogeschool Rotterdam.\\
+-Ook is er een opdracht voor een robot die zo dicht mogelijk tot een afgrond moeten rijden(Challenge B). Deze robot moet in het zelfde tijdsaspect moeten worden afgeleverd en ook voor deze robot geld dat alle benodigdheden worden gesponsord door de hogeschool.\\
++
++Binnen dit project van 140 manuren willen wij √©√©n werkende Activitybot met twee configuraties √©√©n voor challenge A en √©√©n voor challenge B met bijbehorende project documentatie realiseren.
++
++Dit project wordt uitgevoerd om ons(de studenten) praktische ervaring te laten opdoen binnen het vakgebied van de technische informatica.
++Bovendien kan men maximaal vijf studiepunten behalen voor dit project.
++Deze studiepunten hebben we nodig om onze opleiding te kunnen voltooien.
++
++De doelstelling is om binnen de komende acht weken een werkende robot op te leveren met documentatie die rijdend een doolhof doorkruist met behulp van √©√©n of meerdere sensoren (Challenge A). 
++Al het materiaal dat gebruikt wordt is verleend door de Hogeschool Rotterdam.\\
++Ook is er een opdracht voor een tweede configuratie van dezelfde robot die zo dicht mogelijk tot een afgrond moet kunnen rijden zonder er van af te vallen (Challenge B).
+ \\
+-Na afronding van dit project leveren wij een werkende robot die een doolhof kan doorkruizen en een robot die tot een afgrond kan rijden.
++Na afronding van dit project, leveren wij een werkende robot af die een doolhof kan doorkruisen en een robot die tot een afgrond kan rijden.
+ \clearpage
+ \chapter{Projectactiviteiten}
+ {\large \textbf{ Plan voor het uitvoeren de opdracht opstellen:}}
+@@ -146,18 +157,18 @@ I & \begin{tabular}[c]{@{}l@{}}Challenge\\ uitvoeren\end{tabular} & 2 & \begin{t
+ 
+ \clearpage
+ \chapter{Projectgrenzen}
+-Het project loopt van 20 november tot en met 24 januari hier zitten 2 weken vakantie tussen
+-waarin gewerkt kan worden maar waarschijnlijk op een kleiner schaal dan de andere weken.\\
++Het project loopt van 20 november tot en met 24 januari. Hier zitten 2 weken vakantie tussen
++waarin gewerkt kan worden, maar waarschijnlijk op een kleinere schaal dan de andere weken.\\
+ \\
+-Het maximale budget is vastgesteld op uren, elke week wordt er maximaal 18 uur (per persoon) aan
++Het maximale budget is vastgesteld op uren. Elke week wordt er maximaal 18 uur (per persoon) aan
+ gewerkt.
+ Dit cijfer is gebaseerd op het totaal aantal uren.
+ Dat zijn: 
+ \begin{itemize}
+ \item 32 uren voor de techniek binnen het schoolgebouw worden besteed
+-\item 25 uren verslaglegging, 4 uren voor de presentatie plus de voorbereiding ervoor
++\item 25 uren verslaglegging, 4 uren voor de presentatie plus de voorbereiding
+ \item 64 totale uren voor zelf in te delen werkzaamheden(overal aan te besteden binnen het project)
+-\item 28 uren voor samenwerkings en rapportage vaardigheden  
++\item 28 uren voor samenwerking en rapportage vaardigheden  
+ \item 1 uur voor de afsluiting en evaluatie
+ \end{itemize}
+ Alle materialen die voor het project worden gebruikt zijn verleend door de Hogeschool
+@@ -165,16 +176,25 @@ Rotterdam.
+ We krijgen aan fysieke goederen: 1 Activitybot van Parallax, kabeltjes, sensoren, weerstanden, een
+ accu en een set mechano die vrij te gebruiken is.\\
+ \\
+-De randvoorwaarden van het project en daarmee ook de grenzen zijn dat de robot zichzelf
++De concrete grenzen van het project zijn dat de robot zichzelf
+ autonoom door een doolhof heen kan navigeren met
+ de verschafte materialen. 
+-Bovendien moet er ook een tweede setup van de robot zijn die zo snel
++Bovendien moet er ook een tweede configuratie van de robot zijn die zo snel
+ mogelijk richting de rand van een tafel kan rijden en zichzelf op tijd stopt zodat hij er niet af valt.
+ Ook moet de documentatie zoals het plan van aanpak volledig aan de schriftelijke eisen voldoen, alle rapportage
+-en samenwerkings opdrachten moeten
++en samenwerkingsopdrachten moeten
+ afgerond zijn en bovendien moet het geheel met een presentatie en een evaluatie zijn afgerond.
+ Als het laatst genoemde in orde en op tijd ingeleverd/gedaan is, dan is daarmee ook het project
+ succesvol afgerond.
++Meer dan wat net is aangegeven als grens word niet gerealiseerd.
++
++De randvoorwaarden voor het welslagen van dit project zijn: 
++\begin{itemize}
++\item We moeten van de Hogeschool op tijd alle materialen krijgen.
++\item Er moet lang genoeg binnen de school gewerkt kunnen worden.
++\item Alle faciliteiten die we binnen de school nodig hebben moeten beschikbaar zijn.
++\item We moeten de juiste sturing van de project docent kunnen krijgen indien nodig.
++\end{itemize}
+ \clearpage
+ \chapter{Tussenresultaten}
+ 	de tussen resultaten die worden op geleverd zijn:
+@@ -196,16 +216,16 @@ succesvol afgerond.
+ \end{itemize}
+ \clearpage
+ \chapter{Kwaliteit}
+-Om de kwaliteit van de tussen resultaten en eindresultaten te waarborgen wordt voor elk resultaat een rapport gemaakt dat vervolgens wordt gecontroleerd door de projectleider.\\
++Om de kwaliteit van de tussenresultaten en eindresultaten te waarborgen wordt voor elk resultaat een rapport gemaakt dat vervolgens wordt gecontroleerd door de projectleider zodat er beslist kan worden of de kwaliteit van het resultaat aangepast moet worden.\\  
+ 
+-De resultaten worden ook besproken in een vergadering die het team wekelijks houdt. In deze vergadering worden dan de behaalde resultaten besproken met het team en vervolgens een beslissing gemaakt om het resultaat wel of niet aan te passen. \\
++De resultaten worden ook besproken in een vergadering die het team wekelijks houd. In deze vergadering worden dan de behaalde resultaten besproken met het team en vervolgens een beslissing gemaakt om de kwaliteit van het resultaat wel of niet aan te passen.\\ 
+ 
+-Als een niet goed gekeurd tussen of eindresultaat te veel complicaties opleverd zullen wij om advies vragen bij mevrouw Muilwijk en/of mevrouw Van der Ven.\\
++Voor extern advies over tussen-  of eindresultaat zullen wij tijdens de project uren om advies vragen bij mevrouw Muilwijk en/of mevrouw Van der Ven om zo de kwaliteit van deze resultaten te waarborgen. \\
+ 
+-Voor het schrijven van de programmatuur gebruiken wij de SimpleIDE editor, omdat de SimpleIDE wordt de code direct naar de Activitybot kan uploaden.\\
++Voor het schrijven van de programmatuur gebruiken wij de SimpleIDE editor, omdat de SimpleIDE wordt de code direct naar de Activity bot kan uploaden.\\
++
++Voor het beschikbaar maken van onze programmatuur en documenten gebruiken wij GitHub hiervoor is gekozen omdat alle documenten die het team nodig heeft op een centrale plek te vinden zijn, kunnen van commentaar worden voorzien en aangepast indien nodig.\\
+ 
+-Voor het beschikbaar maken van onze programmatuur en documenten gebruiken wij GitHub. Hiervoor is gekozen omdat, alle documenten die het team nodig heeft op 1 centrale plek te vinden zijn. 
+-Bovendien kan er aan de documenten commentaar worden toegevoegd en aangepast indien nodig.
+ \clearpage
+ \chapter{Projectorganisatie}
+ \section*{Algemeen}
+@@ -238,8 +258,7 @@ een hoop relevante kennis voor hun vakgebied kunnen opdoen en omdat ze bij het c
+ van dit project maximaal 5 studiepunten kunnen behalen voor hun opleiding.
+ \clearpage
+ \section*{Communicatie}
+-Intern:
+-De interne communicatie tussen projectleden wordt geregeld via een *Telegram groepchat,
++Intern: de interne communicatie tussen projectleden wordt geregeld via een *Telegram groepchat,
+ **Whatsapp, mobiele telefonie, vergaderingen en email.\\
+ \\
+ \begin{small}
+@@ -247,8 +266,7 @@ De interne communicatie tussen projectleden wordt geregeld via een *Telegram gro
+ ***Whatsapp, een chat applicatie voor Android, IOS, en Windows phone\\
+ \end{small}
+ \\
+-Extern:
+-De externe communicatie tussen de opdrachtgever, de organisatie en de projectleider gaat via email,
++Extern: de externe communicatie tussen de opdrachtgever, de organisatie en de projectleider gaat via email,
+ de telefoon, via vergaderingen/bijeenkomsten(mondeling) en schriftelijke opdrachten.
+ 
+ \section*{Archivering}
+@@ -306,7 +324,7 @@ en het fiscale budget.
+ \subsection*{Planner}
+ De planner is voornamelijk verantwoordelijk voor de planning.
+ Hij/zij is samen met de projectleider ook verantwoordelijk voor de documentatie en hij/zij
+-ondersteund de projectleider in zijn/haar taken.
++ondersteunt de projectleider in zijn/haar taken.
+ \subsection*{Monteur}
+ De monteur is verantwoordelijk voor de montage van het geheel hierna te noemen: Activitybot,
+ robot, de ‚ÄúMaze-runner‚Äù.
+@@ -328,132 +346,109 @@ De bevoegdheden van de projectleden zijn vastgesteld in een samenwerkingscontrac
+ Zie bijlage ‚ÄúSamenwerkingscontract‚Äù.
+ \clearpage
+ \chapter{Planning}
+-{\large \textbf{week 1}}\\
+-monteur/programmeurs:\\
+-\begin{itemize}
+-\item Onderdelen bestuderen
+-\item Sensoren testen
+-\item Onderzoeksopdracht maken
+-\end{itemize}
+-Planner/projectleider:\\
+-\begin{itemize}
+-\item Begin maken aan het plan van aanpak
+-\end{itemize}
+-Iedereen:\\
+-\begin{itemize}
+-\item Vergaderen over opdracht
+-\item Concept plan opdracht opstellen
+-\end{itemize}
+-{\large \textbf{week 2}}\\
+-monteur/programmeurs:\\
+-\begin{itemize}
+-\item Experimenteren met de sensoren (infrarood, ultrasound en whiskers)
+-\item Presentatie geven over de bevindingen en ervaringen met de sensoren
+-\end{itemize}
+-Planner/ project leider:\\
+-\begin{itemize}
+-\item Concept plan van aanpak maken	
+-\end{itemize}
+-Iedereen:\\
+-\begin{itemize}
+-\item Vergaderen over wijzigingen plan opdracht
+-\end{itemize}
+-\clearpage
+-{\large \textbf{week 3}}\\
+-monteur: \\
+-\begin{itemize}
+-\item Plan montage opstellen
+-\item Montage 1ste concept
+-\end{itemize}
+-Programmeurs:\\
+-\begin{itemize}
+-\item Plan sample code opstellen
+-\end{itemize}
+-Iedereen:\\
+-\begin{itemize}
+-\item Definitief plan van aanpak maken
+-\item Definitief plan opdracht opstellen
+-\end{itemize}
+-{\large \textbf{week 4}}\\
+-monteur:\\
+-\begin{itemize}
+-\item Montage bijstellen
+-\end{itemize}
+-Programmeurs:\\
+-\begin{itemize}
+-\item Meerdere sample codes voor 1ste montage programmeren
+-\end{itemize}
+-Iedereen:\\
+-\begin{itemize}
+-\item Werken aan presentatievaardigheden
+-\item Functionaliteit van de activitybot in het doolhof testen
+-\item Vergaderen over de voortgang van het project
+-\end{itemize}
+-{\large \textbf{Week 5}}\\
+-Iedereen:\\
+-\begin{itemize}
+-\item Montage bijstellen
+-\item Werken aan de code voor nieuwe functies, debuggen en code opschonen
+-\item Werken aan een managementsamenvatting
+-\item Functionaliteit van de activitybot in het doolhof testen
+-\item Vergaderen over voortgang (evt. werkzaamheden in de kerstvakantie)
+-\end{itemize}
+-{\large \textbf{week 6}}\\
+-Iedereen:\\
+-\begin{itemize}
+-\item Montage bijstellen
+-\item Werken aan een managementsamenvatting
+-\item Functionaliteit van de activitybot in het doolhof testen
+-\item Werken aan de code voor nieuwe functies, debuggen en code opschonen
+-\item Vergaderen over voortgang 
+-\end{itemize}
+-{\large \textbf{Week 7}}\\
+-Iedereen:\\
+-\begin{itemize}
+-\item Oefenen met presenteren aan de hand van de feedbackformulieren
+-\item Montage bijstellen
+-\item Werken aan de code voor nieuwe functies, debuggen en code opschonen
+-\item Vergadering over het opleveren van eindproduct 
+-\item Functionaliteit van de definitieve versie van de code met de activitybot testen in het doolhof
+-\end{itemize}
+-{\large \textbf{week 8}}\\
+-Iedereen:\\
+-\begin{itemize}
+-\item Groepsdossier inleveren
+-\item Individueel dossier inleveren
+-\item Projectdossier inleveren
+-\item Eindproduct afronden
+-\item Eindproduct testen in het doolhof
+-\item Vergaderen over het uitvoeren van de challenge
+-\end{itemize}
+-{\large \textbf{Week 9}}\\
+-Iedereen:\\
+-\begin{itemize}
+-\item Eindpresentaties geven
+-\item Voorbereiden op de challenge door het eindproduct te testen in het doolhof (testrunnen)
+-\item Challenge uitvoeren
+-\end{itemize}
++\begin{figure}[H]\begin{adjustwidth}{-4.25cm}{}
++\begin{tabular}{ | l | l | l | l | }
++\hline
++	Week & Activiteit & Door wie? & Tijd (in uren) \\ \hline
++	1 & Onderdelen bestuderen & Alle groepsleden & 2 \\ \hline
++	 & Sensoren testen & Alle groepsleden & 5 \\ \hline
++	 & Begin maken aan het plan van aanpak & Wouter \& Nichelle & 3 \\ \hline
++	 & Vergaderen over opdracht & Alle groepsleden & 2 \\ \hline
++	 & Concept plan opdracht opstellen & Nichelle & 2 \\ \hline
++	 & Onderzoeksopdracht sensoren voorbereiden & Alle groepsleden & 2 \\ \hline
++	 & \  & \  & \  \\ \hline
++	2 & Experimenteren met de sensoren (infrarood, ultrasound en whiskers) & Stefan \& Victor & 2 \\ \hline
++	 & Experimenteren met test codes (Parallax) & Stephan \& Victor & 2 \\ \hline
++	 & Presentatie voorbereiden en geven over de bevindingen en ervaringen met de sensoren & Stephan \& Stefan & 1 \\ \hline
++	 & Concept plan van aanpak maken & Wouter \& Nichelle & 3 \\ \hline
++	 & Vergaderen over wijzigingen plan opdracht & Alle groepsleden & 2 \\ \hline
++	 & Wijzingen plan opdracht verbeteren & Nichelle & 2 \\ \hline
++	 & Individueel feedback geven op plan van aanpak van een andere groep & Alle groepsleden & 2 \\ \hline
++	 & \  & \  & \  \\ \hline
++	3 & Plan montage opstellen voor challenge A en B & Stefan \& Victor & 3 \\ \hline
++	 & Montage 1ste concept challenge A en B & Stefan \& Victor & 2 \\ \hline
++	 & Plan sample code opstellen voor challenge A en B & Stephan \& Victor & 2 \\ \hline
++	 & Bespreking van ontvangen feedbackformulieren & Alle groepsleden & 2 \\ \hline
++	 & Definitief plan van aanpak maken & Alle groepsleden & 4 \\ \hline
++	 & Definitief plan opdracht opstellen & Nichelle & 2 \\ \hline
++	 & \  & \  & \  \\ \hline
++	4 & Montage concept A en B bijstellen & Stefan \& Victor & 2 \\ \hline
++	 & Meerdere sample codes voor 1ste montage programmeren & Stephan \& Victor & 4 \\ \hline
++	 & Werken aan presentatievaardigheden & Alle groepsleden & 2 \\ \hline
++	 & Functionaliteit van de ActivityBot in het doolhof testen & Alle groepsleden & 2 \\ \hline
++	 & Vergaderen over de voortgang van het project & Alle groepsleden & 1 \\ \hline
++	 & Go/ no-go plan van aanpak resultaten doornemen en verbeteren & Alle groepsleden & 2 \\ \hline
++	 & \  & \  & \  \\ \hline
++	5 & Montage tot definitieve versie A en B bijstellen & Alle groepsleden & 2 \\ \hline
++	 & Werken aan de code voor nieuwe functies, debuggen en code opschonen & Alle groepsleden & 3 \\ \hline
++	 & Werken aan een managementsamenvatting & Alle groepsleden & 2 \\ \hline
++	 & Functionaliteit van de ActivityBot in het doolhof testen & Alle groepsleden & 2 \\ \hline
++	 & Vergaderen over voortgang (evt. werkzaamheden in de kerstvakantie) & Alle groepsleden & 1 \\ \hline
++	 & \  & \  & \  \\ \hline
++	\end{tabular}
++	\end{adjustwidth}\end{figure}
++	\clearpage
++	\begin{figure}[H]\begin{adjustwidth}{-3.5cm}{}
++	\begin{tabular}{ | l | l | l | l | }
++	\hline
++	6 & Montage tot definitieve versie A en B bijstellen & Alle groepsleden & 2 \\ \hline
++	 & Werken aan een managementsamenvatting & Alle groepsleden & 2 \\ \hline
++	 & Functionaliteit van de ActivityBot in het doolhof testen & Alle groepsleden & 3 \\ \hline
++	 & Werken aan de code voor nieuwe functies, debuggen en code opschonen & Alle groepsleden & 3 \\ \hline
++	 & Vergaderen over voortgang  & Alle groepsleden & 1 \\ \hline
++	 & \  & \  & \  \\ \hline
++	7 & Oefenen met presenteren aan de hand van de feedbackformulieren & Alle groepsleden & 2 \\ \hline
++	 & Montage tot definitieve versie A en B bijstellen & Alle groepsleden & 2 \\ \hline
++	 & Werken aan de code voor nieuwe functies, debuggen en code opschonen & Alle groepsleden & 2 \\ \hline
++	 & Vergadering over het opleveren van eindproduct  & Alle groepsleden & 1 \\ \hline
++	 & Functionaliteit van de definitieve versie van de code met en de ActivityBot testen in het doolhof & Alle groepsleden & 4 \\ \hline
++	 & \  & \  & \  \\ \hline
++	8 & Groepsdossier voorbereiden en  inleveren & Alle groepsleden & 9 \\ \hline
++	 & Individueel dossier voorbereiden en inleveren & Alle groepsleden & 5 \\ \hline
++	 & Projectdossier voorbereiden en inleveren & Alle groepsleden & 7 \\ \hline
++	 & Eindproduct opleveren & Alle groepsleden & 2 \\ \hline
++	 & Vergaderen over het uitvoeren van challenge A en B & Alle groepsleden & 1 \\ \hline
++	 & \  & \  & \  \\ \hline
++	9 & Eindpresentaties voorbereiden en geven & Alle groepsleden & 3 \\ \hline
++	 & Voorbereiden op de challenge door het eindproduct te testen in het doolhof (testrunnen) & Alle groepsleden & 4 \\ \hline
++	 & Challenge A en B uitvoeren & Alle groepsleden & 2 \\ \hline
++\end{tabular}
++\end{adjustwidth}\end{figure}
++\section*{Activiteiten tabel}
++\begin{tabular}{ | l | l | l | l | }
++\hline
++	Code & Omschrijving & Uren  & Kan pas na \\ \hline
++	A & Plan voor het uitvoeren de opdracht opstellen & 10 & - \\ \hline
++	B & Selecteren van de sensoren (onderzoeksopdracht) & 7 & A \\ \hline
++	C & Opstellen van het plan van aanpak & 16 & A \\ \hline
++	D & Monteren van de sensoren & 13 & B \\ \hline
++	E & Programmeren van de code voor de montage & 14 & D \\ \hline
++	F & Maken van het groepsdossier (rapporteren) & 16 & A, B, C, D en E \\ \hline
++	G & Maken van het individueel dossier & 5 & A, B, C, D en E \\ \hline
++	H & Maken projectdossier (samenwerken) & 7 & A, B, C, D en E \\ \hline
++	I & Challenge uitvoeren & 2 & A, B, C, D en E \\ \hline
++\end{tabular}
++
+ 
+ \clearpage
+ \chapter{Kosten en Baten}
+-De kosten die we zijn tegen gekomen zijn: mensuren, hulpmiddelen, onvoorziene uitgaven, maar uiteindelijk hebben we een aantal opbrengsten.
+-Mensuren zijn zeker van belang bij dit project. Elk groepslid zet zichzelf tijdens dit project in om het succesvol af te ronden. Om deze reden is mensuren een van onze grootste kosten. \\
++De kosten die we zijn tegen gekomen zijn: mensuren, hulpmiddelen, onvoorzien uitgave maar uiteindelijk hebben we een aantal opbrengsten.
++Mensuren zijn zeker van belang bij dit project. Elk groepslid zet zichzelf tijdens dit project in om het succesvol af te ronden. Om deze reden is mensuren een van onze grootste kosten\\
++
++Mensuren tijdens het project kunnen onderverdeeld worden in 2 onderdelen:\\
+ 
+-Mensuren tijdens het project kan onderverdeeld worden in 2 onderdelen:
+ Begeleide projectlesuren: \\
+-\\
+-Begeleide instructies techniek gedeelte: \\ 
++Begeleide instructies techniek gedeelte:  
+ gedurende 8 weken:  8 * 4  uur  =  32 uur\\
+ \\
+-Begeleide instructies rapporteren:\\
++Begeleide instructies rapporteren: \\
+ gedurende 8 weken: 7 * 2  uur   =  14 uur\\
+ \\
+ Begeleide instructies samenwerken:\\
+ gedurende 8 weken: 7 * 2  uur  =  14  uur\\
+                                                       
+ De in hoofstuk 3 vermelde projectactiviteiten:\\ 
+-Bestaande uit zelfwerkzaamheid, presentatie eindresultaat, verslaglegging, afsluiting en evaluatie: \\
+-90 uur
++Bestaande uit zelfwerkzaamheid, presentatie eindresultaat, verslaglegging, afsluiting en evaluatie: 90 uur
+ 
+ In totaal zullen wij 150 uren besteden aan het project.\\
+ 
+@@ -461,41 +456,88 @@ Hulpmiddelen zijn kosten die gemaakt worden om materialen zoals papier,
+ hardware en software aan te schaffen. Dit is niet van toepassing op ons, aangezien
+ we alle benodigde materialen van school gratis krijgen.\\
+ 
+-Onvoorziene uitgaven zijn extra kosten waar niet op waren gerekend. In ons geval
++Onvoorziene uitgaven zijn extra kosten waar niet op was gerekend. In ons geval
+ moet het altijd met de opdrachtgever over gesproken worden als die kosten echt
+ nodig zijn. Dit is niet van toepassing, omdat dat wordt geregeld door de school.\\
+ 
+-Uiteindelijk worden de opbrengsten gevormd door alle kosten bij elkaar op te tellen.
+-De opbrengsten worden in een andere vorm uitbetaald. 
+-Wij krijgen door het project met goed resultaat af te ronden een voldoende en hebben belangrijke    
+-kennis opgedaan, die goed van pas zal komen tijdens het verloop van onze studieloopbaan.
++Uiteindelijk de opbrengsten is gevormd door alle kosten bij elkaar
++samen te tellen. In dit geval is het voor ons niet van toepassing, omdat
++we er geen geld voor krijgen, maar de opbrengst wordt in een andere vorm uitbetaalt. 
++Wij krijgen door het project goede resultaat af te ronden een voldoende en hebben belangrijke    
++kennis   opgedaan, die goed van pas zal komen tijdens het verloop van onze studieloopbaan.
+ \clearpage
+ \chapter{Risico's}
+-Bij risico's kan onderscheid worden gemaakt tussen interne
+-en externe risico's.
++De opdrachtgevers hebben als eis gesteld dat dit hoofdstuk zowel de interne als externe risico‚Äôs, de gevolgen met betrekking tot het project en mogelijke maatregelen moet bevatten.\\
++
++Bij risico's kan onderscheid worden gemaakt tussen interne en externe risico's.
+ 
+ \section*{Interne risico's:}
+ \begin{itemize}
+-\item Haalbaarheid van het project; Het kan voorkomen dat de gestelde tijd niet genoeg is om het project af te ronden.
+-\item Iemand die bijvoorbeeld door ziekte niet meer in staat is om het project af te ronden. Dan moeten de overgebleven groepsleden extra taken overnemen. 
+-\item Projectleden die niet meer met elkaar kunnen of willen samenwerken.
+-\item Technische risico's; Foute keuze van hardware onderdelen die aan het einde van het project niet meer functioneren. Ook valt hier te denken aan het slecht bouwen van het prototype of het niet goed nadenken hierover.
+-\item Afhankelijkheid  van andere taken; als de taak 'bouwen van het prototype' door de monteur niet op tijd gereed is, kan de taak 'software programmeren' door de programmeurs niet beginnen.
++	\item Haalbaarheid van het project; Het kan voorkomen dat de gestelde
++   tijd niet genoeg is om het project af te ronden. De zwaarte factor is 4, omdat de 
++   projectleden voor andere vakken werk moeten verrichten. Als maatregel wordt getracht ons  
++   te houden aan de wekelijkse planning en die waar nodig bij te stellen.
++
++	\item Persoonlijke omstandigheden; Iemand die bijvoorbeeld door ziekte niet meer in staat is om   
++   het project af te ronden. Dan moeten de overgebleven groepsleden extra taken overnemen. 
++   De zwaarte factor is 5,  omdat ziekte zich op enig kan voordoen. Als maatregel zullen wij 
++   elkaar ondersteunen tijdens het proces. 
++
++	\item Projectleden die niet meer met elkaar kunnen of willen samenwerken. De zwaarte factor is 2, 
++   omdat effici√´nt samenwerken nog moeilijk is voor velen. Als maatregel  
++    zullen wij de sfeer binnen de groep prettig te houden door respect voor elkaar te tonen.
++
++	\item Technische risico's; Foute keuze van hardware onderdelen die 
++   aan het einde van het project niet meer functioneren. Ook valt hier te denken aan het slecht  
++   bouwen van het prototype of het niet goed nadenken hierover. De zwaarte factor is 4. Dit 
++   omdat er verschillende mogelijkheden zijn wat het monteren van de hardware 
++   betreft. Als maatregel zullen wij met verschillende prototypen werken om te concluderen wat 
++   de beste optie is.  
++
++	\item Afhankelijkheid  van andere taken; als de taak 'bouwen van het prototype' door de
++   bouwers niet op tijd gereed is, kan de taak 'software programmeren' door de programmeurs  
++   niet beginnen. De zwaarte factor is 2, omdat veel taken van elkaar afhankelijk  
++   zijn. Als maatregel zullen wij ons aan de wekelijkse planning houden en vergaderen over de 
++   voortgang.
+ \end{itemize}
+  
++ \clearpage
+ 
+ \section*{Externe risico's:}
+ \begin{itemize}
+-\item Onvoldoende tijd voor besluitvorming
+-\item Onduidelijke projectgrenzen. 
+-\item Veranderingen met betrekking tot de doelstelling kunnen negatieve gevolgen hebben voor het plan van aanpak. Dit brengt veel wijzigingen zich mee om het plan van aanpak relevant te houden aan de nieuwe doelstelling. 
+-\item De leveringstijd van de materialen kan langer duren dan verwacht aangezien wij met meerdere hardware onderdelen mogen werken bij dit project.   
++	\item Onduidelijke projectgrenzen. De zwaarte factor is 2, omdat een opdracht soms vaag 
++    beschreven kan zijn. Als maatregel zullen wij contact opnemen met de opdrachtgevers zodra 
++    de projectgrenzen onduidelijk voor ons zijn.
++
++	\item Veranderingen met betrekking tot de doelstelling kunnen negatieve gevolgen hebben voor  
++    het plan van aanpak. Dit brengt veel wijzigingen zich mee om het plan van aanpak relevant te   
++    houden aan de nieuwe doelstelling. De zwaarte factor is 3. Als maatregel zullen wij direct  
++    contact  opnemen met de opdrachtgevers om de doelen vast te stellen en aan te passen.
++
++	\item De leveringstijd van de materialen kan langer duren dan verwacht aangezien wij met 
++    meerdere hardware onderdelen mogen werken bij dit project.  De zwaarte factor is 3. Als
++    maatregel trachten wij effici√´nt om te gaan met het materiaal dat al in ons bezit is.    
+ \end{itemize} 
+-\includegraphics{graph.png}
++\clearpage
++\includegraphics[scale=0.80]{image/graph.png}
++\\
+ \\
+ \\
+-\includegraphics[scale=0.75]{table.png}
++\includegraphics[scale=0.75]{image/table.png}
+ 
+ \clearpage
+-
++\part*{bijlagen}
++\chapter*{Netwerk- en Strokenplanning}
++\begin{figure}[H]\begin{adjustwidth}{-3cm}{}
++\includegraphics[scale=0.35]{image/netwerkplanning.png}
++\includegraphics[scale=0.25]{image/strokenplanning.png}
++\end{adjustwidth}\end{figure}
++\chapter*{Samenwerkingscontract}
++\begin{enumerate}
++	\item alle comunicatie verloopt via telegram
++	\item een lid kan uit de groep worden gezet als een meerderheid voor stemt.
++	\item samenkomsten worden voorgestelt en daarna geacepteerd door de groepsleden
++	\item na overleg acpteert het groeps lid de taken die zijn opgelecht
++	\item door het teken van dit contracht gaat de tekenaar akoord met de bovenstaande eisen en voegt zich in de groep als lid.
++\end{enumerate}
+ \end{document}
+\ No newline at end of file
+diff --git a/doc/pva/table.png b/doc/pva/table.png
+deleted file mode 100644
+index c39f069..0000000
+Binary files a/doc/pva/table.png and /dev/null differ
+diff --git a/doc/pva/verberteringen/beoordeeling 1.jpg b/doc/pva/verberteringen/beoordeeling 1.jpg
+deleted file mode 100644
+index 65ed063..0000000
+Binary files a/doc/pva/verberteringen/beoordeeling 1.jpg and /dev/null differ
+diff --git a/doc/pva/verberteringen/beoordeeling 3.jpg b/doc/pva/verberteringen/beoordeeling 3.jpg
+deleted file mode 100644
+index 5d8343c..0000000
+Binary files a/doc/pva/verberteringen/beoordeeling 3.jpg and /dev/null differ
+diff --git a/doc/pva/verberteringen/pva 1.jpg b/doc/pva/verberteringen/pva 1.jpg
+deleted file mode 100644
+index db00a37..0000000
+Binary files a/doc/pva/verberteringen/pva 1.jpg and /dev/null differ
+diff --git a/doc/pva/verberteringen/pva 11.jpg b/doc/pva/verberteringen/pva 11.jpg
+deleted file mode 100644
+index ee667ec..0000000
+Binary files a/doc/pva/verberteringen/pva 11.jpg and /dev/null differ
+diff --git a/doc/pva/verberteringen/pva 13.jpg b/doc/pva/verberteringen/pva 13.jpg
+deleted file mode 100644
+index 8cbac47..0000000
+Binary files a/doc/pva/verberteringen/pva 13.jpg and /dev/null differ
+diff --git a/doc/pva/verberteringen/pva 15.jpg b/doc/pva/verberteringen/pva 15.jpg
+deleted file mode 100644
+index 889e986..0000000
+Binary files a/doc/pva/verberteringen/pva 15.jpg and /dev/null differ
+diff --git a/doc/pva/verberteringen/pva 17.jpg b/doc/pva/verberteringen/pva 17.jpg
+deleted file mode 100644
+index 5342301..0000000
+Binary files a/doc/pva/verberteringen/pva 17.jpg and /dev/null differ
+diff --git a/doc/pva/verberteringen/pva 19.jpg b/doc/pva/verberteringen/pva 19.jpg
+deleted file mode 100644
+index 455afb9..0000000
+Binary files a/doc/pva/verberteringen/pva 19.jpg and /dev/null differ
+diff --git a/doc/pva/verberteringen/pva 19.pdf b/doc/pva/verberteringen/pva 19.pdf
+deleted file mode 100644
+index 53d3d55..0000000
+Binary files a/doc/pva/verberteringen/pva 19.pdf and /dev/null differ
+diff --git a/doc/pva/verberteringen/pva 3.jpg b/doc/pva/verberteringen/pva 3.jpg
+deleted file mode 100644
+index a581784..0000000
+Binary files a/doc/pva/verberteringen/pva 3.jpg and /dev/null differ
+diff --git a/doc/pva/verberteringen/pva 5.jpg b/doc/pva/verberteringen/pva 5.jpg
+deleted file mode 100644
+index 9cd2727..0000000
+Binary files a/doc/pva/verberteringen/pva 5.jpg and /dev/null differ
+diff --git a/doc/pva/verberteringen/pva 7.jpg b/doc/pva/verberteringen/pva 7.jpg
+deleted file mode 100644
+index 1eef7d7..0000000
+Binary files a/doc/pva/verberteringen/pva 7.jpg and /dev/null differ
+diff --git a/doc/pva/verberteringen/pva 9.jpg b/doc/pva/verberteringen/pva 9.jpg
+deleted file mode 100644
+index 16a5644..0000000
+Binary files a/doc/pva/verberteringen/pva 9.jpg and /dev/null differ
+diff --git a/doc/pva/verberteringen/pva1.jpg b/doc/pva/verberteringen/pva1.jpg
+new file mode 100644
+index 0000000..6e5ed4e
+Binary files /dev/null and b/doc/pva/verberteringen/pva1.jpg differ
+diff --git a/doc/pva/verberteringen/pva2.jpg b/doc/pva/verberteringen/pva2.jpg
+new file mode 100644
+index 0000000..160750d
+Binary files /dev/null and b/doc/pva/verberteringen/pva2.jpg differ
+diff --git a/doc/pva/verberteringen/pva3.jpg b/doc/pva/verberteringen/pva3.jpg
+new file mode 100644
+index 0000000..f559475
+Binary files /dev/null and b/doc/pva/verberteringen/pva3.jpg differ
+diff --git a/doc/pva/verberteringen/pva4.jpg b/doc/pva/verberteringen/pva4.jpg
+new file mode 100644
+index 0000000..0ccb879
+Binary files /dev/null and b/doc/pva/verberteringen/pva4.jpg differ
+diff --git a/doc/pva/verberteringen/verslag1.jpg b/doc/pva/verberteringen/verslag1.jpg
+new file mode 100644
+index 0000000..2f46658
+Binary files /dev/null and b/doc/pva/verberteringen/verslag1.jpg differ
+diff --git a/doc/pva/verberteringen/verslag10.jpg b/doc/pva/verberteringen/verslag10.jpg
+new file mode 100644
+index 0000000..532ada2
+Binary files /dev/null and b/doc/pva/verberteringen/verslag10.jpg differ
+diff --git a/doc/pva/verberteringen/verslag11.jpg b/doc/pva/verberteringen/verslag11.jpg
+new file mode 100644
+index 0000000..b0e02c9
+Binary files /dev/null and b/doc/pva/verberteringen/verslag11.jpg differ
+diff --git a/doc/pva/verberteringen/verslag12.jpg b/doc/pva/verberteringen/verslag12.jpg
+new file mode 100644
+index 0000000..c3d7ea5
+Binary files /dev/null and b/doc/pva/verberteringen/verslag12.jpg differ
+diff --git a/doc/pva/verberteringen/verslag13.jpg b/doc/pva/verberteringen/verslag13.jpg
+new file mode 100644
+index 0000000..a8059c1
+Binary files /dev/null and b/doc/pva/verberteringen/verslag13.jpg differ
+diff --git a/doc/pva/verberteringen/verslag14.jpg b/doc/pva/verberteringen/verslag14.jpg
+new file mode 100644
+index 0000000..066b720
+Binary files /dev/null and b/doc/pva/verberteringen/verslag14.jpg differ
+diff --git a/doc/pva/verberteringen/verslag15.jpg b/doc/pva/verberteringen/verslag15.jpg
+new file mode 100644
+index 0000000..a292069
+Binary files /dev/null and b/doc/pva/verberteringen/verslag15.jpg differ
+diff --git a/doc/pva/verberteringen/verslag16.jpg b/doc/pva/verberteringen/verslag16.jpg
+new file mode 100644
+index 0000000..2a82470
+Binary files /dev/null and b/doc/pva/verberteringen/verslag16.jpg differ
+diff --git a/doc/pva/verberteringen/verslag17.jpg b/doc/pva/verberteringen/verslag17.jpg
+new file mode 100644
+index 0000000..6ac33a7
+Binary files /dev/null and b/doc/pva/verberteringen/verslag17.jpg differ
+diff --git a/doc/pva/verberteringen/verslag18.jpg b/doc/pva/verberteringen/verslag18.jpg
+new file mode 100644
+index 0000000..3c27c30
+Binary files /dev/null and b/doc/pva/verberteringen/verslag18.jpg differ
+diff --git a/doc/pva/verberteringen/verslag19.jpg b/doc/pva/verberteringen/verslag19.jpg
+new file mode 100644
+index 0000000..64959bf
+Binary files /dev/null and b/doc/pva/verberteringen/verslag19.jpg differ
+diff --git a/doc/pva/verberteringen/verslag2.jpg b/doc/pva/verberteringen/verslag2.jpg
+new file mode 100644
+index 0000000..89b7ea3
+Binary files /dev/null and b/doc/pva/verberteringen/verslag2.jpg differ
+diff --git a/doc/pva/verberteringen/verslag20.jpg b/doc/pva/verberteringen/verslag20.jpg
+new file mode 100644
+index 0000000..13b64e8
+Binary files /dev/null and b/doc/pva/verberteringen/verslag20.jpg differ
+diff --git a/doc/pva/verberteringen/verslag3.jpg b/doc/pva/verberteringen/verslag3.jpg
+new file mode 100644
+index 0000000..db1a42f
+Binary files /dev/null and b/doc/pva/verberteringen/verslag3.jpg differ
+diff --git a/doc/pva/verberteringen/verslag4.jpg b/doc/pva/verberteringen/verslag4.jpg
+new file mode 100644
+index 0000000..58cf6e3
+Binary files /dev/null and b/doc/pva/verberteringen/verslag4.jpg differ
+diff --git a/doc/pva/verberteringen/verslag5.jpg b/doc/pva/verberteringen/verslag5.jpg
+new file mode 100644
+index 0000000..0617c63
+Binary files /dev/null and b/doc/pva/verberteringen/verslag5.jpg differ
+diff --git a/doc/pva/verberteringen/verslag6.jpg b/doc/pva/verberteringen/verslag6.jpg
+new file mode 100644
+index 0000000..3321b79
+Binary files /dev/null and b/doc/pva/verberteringen/verslag6.jpg differ
+diff --git a/doc/pva/verberteringen/verslag7.jpg b/doc/pva/verberteringen/verslag7.jpg
+new file mode 100644
+index 0000000..af47438
+Binary files /dev/null and b/doc/pva/verberteringen/verslag7.jpg differ
+diff --git a/doc/pva/verberteringen/verslag8.jpg b/doc/pva/verberteringen/verslag8.jpg
+new file mode 100644
+index 0000000..b678d25
+Binary files /dev/null and b/doc/pva/verberteringen/verslag8.jpg differ
+diff --git a/doc/pva/verberteringen/verslag9.jpg b/doc/pva/verberteringen/verslag9.jpg
+new file mode 100644
+index 0000000..cb61561
+Binary files /dev/null and b/doc/pva/verberteringen/verslag9.jpg differ
