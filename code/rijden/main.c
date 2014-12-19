@@ -23,16 +23,8 @@ static int pinIRR = 11;
 static int pinIRinL = 2;
 static int pinIRinR = 10; 
 
-//More memory than needed is assigned!
-//The CPU should have enough registers and other memory sources for this. 
-int cogStack0 = 40;
-int cogStack1 = 40;
-int cogStack2 = 40;
-int cogStack3 = 40;
-int cogStack4 = 64;
-int cogStack5 = 48;
-//unsigned int ExtraStackCog1 = 24;
-//unsigned int ExtraStackCog2 = 32;
+//Define base stack size 
+int stack = 32;
 //general purpose static integer values for navigational functions.
 static volatile int distance;
 static volatile int irLstate = 0;
@@ -45,9 +37,11 @@ static int irDelay = 1;
 
 void printDistance(void *v){
   while(1)
-  {   
-    print("distance = " + distance);
-    pause(500);          
+  { 
+    simpleterm_open();  
+    print("%cUltrasound distance = %d cm \n IR detection L = %d R = %d%c", HOME, distance, irLstate, irRstate, CLREOL);
+    simpleterm_close();
+    pause(100);          
   }
 }
 
@@ -56,6 +50,7 @@ void printDistance(void *v){
       //freqout(int pin, int msTime, int frequency)
       freqout(pinIRL, irDelay, irFreq);
       irLstate = input(pinIRinL);
+      pause(100);
     }
   }
 
@@ -64,15 +59,9 @@ void printDistance(void *v){
       //freqout(int pin, int msTime, int frequency)
       freqout(pinIRR, irDelay, irFreq);
       irRstate = input(pinIRinR);
+      pause(100);
     }
   }
-
-void irPrint(void *v){
-  while(1){
-    print("L = " + irLstate);
-    print("R = " + irRstate);
-  }
-}  
 
 void uSensor(void *v){
   while(1){
@@ -94,6 +83,7 @@ void navigate(void *v){
 
         drive_ramp(-32, -32);
         pause(200);
+        return;
         }
       }
       drive_ramp(0, 0);
@@ -119,10 +109,11 @@ void turnCount(void *v){
 
 //main, alter at your own risk :3
 int main(){
-  int* coginfo0 = cog_run(&uSensor, sizeof(cogStack0));
-  int* coginfo1 = cog_run(&irSensorL, sizeof(cogStack1));
-  int* coginfo2 = cog_run(&irSensorR, sizeof(cogStack2));
-  int* coginfo3 = cog_run(&printDistance, sizeof(cogStack3));
-  int* coginfo4 = cog_run(&navigate, sizeof(cogStack4));
-  int* coginfo5 = cog_run(&turnCount, sizeof(cogStack5));
+  simpleterm_close();
+  int* coginfo0 = cog_run(&uSensor, sizeof(stack));
+  int* coginfo1 = cog_run(&irSensorL, sizeof(stack));
+  int* coginfo2 = cog_run(&irSensorR, sizeof(stack));
+  int* coginfo3 = cog_run(&printDistance, sizeof(stack));
+  int* coginfo4 = cog_run(&navigate, sizeof(stack+32));
+  int* coginfo5 = cog_run(&turnCount, sizeof(stack+16));
 }  
