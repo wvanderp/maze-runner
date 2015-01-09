@@ -5,38 +5,36 @@
 //include activitybot simpletools library, IR control.
 #include "simpletools.h"
 
-/*Documentation
-Function drive_goto( , ) is used to finely turn the bot around.
+/*Documentation of general methods:
+Method drive_goto() is used to finely turn the bot around.
+drive_speed() is used to set the drive speed and to make the activitybot stop.
 */
 
 
 //Initialization global variables and settings
 static volatile double completeturn = 51.12;
-static volatile double rightw  = -25.56;
+static volatile double rightw  = 25.56;
 static volatile double leftw = 25.56;
-static volatile int turncounter = 0;
+//static volatile int turncounter = 0;
 
 //Setup pin variables for oversight and abstract logic.
-static int pinU = 8;
-static int pinIRL = 11;
-static int pinIRR = 2;
-static int pinIRinL = 10;
-static int pinIRinR = 3; 
+static int pinU0 = 8;
+static int pinU1 = 9;
 
 //Define base stack size 
 int stack = 32;
 //general purpose static integer values for navigational functions.
-static volatile int distance;
+static volatile int distanceFront;
+static volatile int distanceLeft;
 
 //printDistance prints the main sensor readings to the console in a human readable format.
 //The data is refreshed every 100ms (miliseconds).
 void printDistance(void *v){
-  while(1)
-  { 
+  while(1){ 
     simpleterm_open();  
-    print("%cUltrasound distance = %d cm \n IR detection: L = %d R = %d%c", HOME, distance, irLstate, irRstate, CLREOL);
+    print("%c Ultrasound distance F = %d cm \n distance L = %d%c cm", HOME, distanceFront, distanceLeft, CLREOL);
     simpleterm_close();
-    pause(100);          
+    pause(200);          
   }
 }
 
@@ -46,8 +44,10 @@ void printDistance(void *v){
 //The sensor will give more inaccurate readings(as if it gets overloaded) when the delay is lowered below 200ms. 
 void uSensor(void *v){
   while(1){
-    distance = ping_cm(pinU);
-    pause(200);
+    distanceFront = ping_cm(pinU0);
+    pause(100);
+    distanceLeft = ping_cm(pinU1);
+    pause(100);
   }
 } 
 
@@ -56,36 +56,27 @@ void uSensor(void *v){
 //Therefore it requires the most memory on the stack.
 void navigate(void *v){
   while(1){
-    drive_ramp(64, 64);
-
-    if(distance < 10 && irRstate == 0){
-      drive_ramp(0, 0);
-      drive_goto(leftw, rightw);
-      //turncounter++;
-      return;
-    }else if(distance < 10 && irLstate == 0){
-      drive_ramp(0, 0);
-      drive_goto(rightw, leftw);
+    drive_speed(32, 32);
+    if(distanceFront < 5){
+      if(distanceLeft < 8){
+      drive_speed(0, 0);
+      pause(1000);
+      drive_goto(-6, -6);
+      pause(1000);
+      drive_goto(-leftw, rightw);
+      pause(10);
+      }else{
+        drive_speed(0, 0);
+        pause(1000);
+        drive_goto(-6, -6);
+        pause(1000);
+        drive_goto(leftw, -rightw);
+        pause(10);
+      }
     }
   }
 }
-//turnCount is an support method for the navigation method, it does not move the Activitybot!
-//It only tracks the time of turns it tooks and changes fields associated with this state.
-/*
-void turnCount(void *v){
-  //check the turn counter and reverse direction
-   if(turncounter == 2){
-     turncounter = 0;
-     if(leftw == -25.56){
-       abs(leftw);
-       rightw = rightw<=0? rightw:0-rightw;
-     }else{
-        leftw = leftw<=0? leftw:0-leftw;
-        abs(rightw);
-     }       
-   }
-}
-*/
+
 //Main, alter at your own risk!
 //The cog_run method launches a function into one of the processors (total of eight) of the propeller board
 //and assigns it with memory in the form of a stack size.
@@ -98,9 +89,7 @@ void turnCount(void *v){
 //the printDistance method is responsible for invoking simpleter_open();
 //Which in turn opens the terminal connection with the IDE.
 int main(){
-  simpleterm_close();
-  int* coginfo0 = cog_run(&uSensor, sizeof(stack));
-  int* coginfo1 = cog_run(&printDistance, sizeof(stack+16));
+  int* coginfo0 = cog_run(&uSensor, sizeof(stack+32));
+  //int* coginfo1 = cog_run(&printDistance, sizeof(stack+16));
   int* coginfo2 = cog_run(&navigate, sizeof(stack+64));
-  //int* coginfo5 = cog_run(&turnCount, sizeof(stack+32));
 }  
