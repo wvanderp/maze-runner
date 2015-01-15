@@ -53,11 +53,12 @@ void uSensor(void *v){
     pause(100);
   }
 } 
-
+//openSpaceCheck simply extends the navigation function, by making the main algorithem aware of large open spaces.
+//It checks for large open spaces periodically.
+//and navigates to them if one is found.
 void openSpaceCheck(){
   if(_time = 60000){
     _time = 0;
-    time = 0;
     mstime_set(0);
     if(distanceLeft > 18){
       if(openViewC >= 1){
@@ -124,6 +125,10 @@ int main(){
   while(1){
     time = mstime_get();
     _time = time;
+    if(_time = 60000){
+      _time = 0;
+      time = 0;
+    }
     pause(100);
   }
 }  
