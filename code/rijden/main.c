@@ -55,9 +55,11 @@ void uSensor(void *v){
 } 
 
 void openSpaceCheck(){
-  if(_time = 30000){
-    mstime_reset();
-    if(distanceLeft > 8){
+  if(_time = 60000){
+    _time = 0;
+    time = 0;
+    mstime_set(0);
+    if(distanceLeft > 18){
       if(openViewC >= 1){
         openViewC = 0;
       }else{
@@ -118,9 +120,10 @@ int main(){
   mstime_start();
   int* coginfo0 = cog_run(&uSensor, sizeof(stack+32));
   //int* coginfo1 = cog_run(&printDistance, sizeof(stack+16));
-  int* coginfo2 = cog_run(&navigate, sizeof(stack+64));
+  int* coginfo2 = cog_run(&navigate, sizeof(stack+96));
   while(1){
     time = mstime_get();
     _time = time;
+    pause(100);
   }
 }  
