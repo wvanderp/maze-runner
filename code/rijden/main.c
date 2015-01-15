@@ -4,7 +4,8 @@
 #include "ping.h"
 //include activitybot simpletools library, IR control.
 #include "simpletools.h"
-
+//include activitybot mstimer library, time monitoring.
+#include "mstimer.h"
 /*Documentation of general methods:
 Method drive_goto() is used to finely turn the bot around.
 drive_speed() is used to set the drive speed and to make the activitybot stop.
@@ -15,6 +16,8 @@ drive_speed() is used to set the drive speed and to make the activitybot stop.
 static volatile double completeturn = 51.12;
 static volatile double rightw  = 25.56;
 static volatile double leftw = 25.56;
+static volatile int _time;
+static int openViewC = 0;
 //static volatile int turncounter = 0;
 
 //Setup pin variables for oversight and abstract logic.
@@ -51,12 +54,33 @@ void uSensor(void *v){
   }
 } 
 
+void openSpaceCheck(){
+  if(_time = 30000){
+    mstime_reset();
+    if(distanceLeft > 8){
+      if(openViewC >= 1){
+        openViewC = 0;
+      }else{
+        openViewC++;
+        drive_speed(0, 0);
+        pause(1000);
+        drive_goto(leftw, -rightw);
+        pause(10);
+        drive_speed(32, 32);
+        pause(1500);
+      }
+    }
+  }  
+}
+
 //navigate incorperates all the movement functions, it makes the activitybot physically move, stop and turn.
 //This method contains the primary decision making algorithem for movement.
 //Therefore it requires the most memory on the stack.
 void navigate(void *v){
+  int openViewC = 0;
   while(1){
     drive_speed(32, 32);
+
     if(distanceFront < 5){
       if(distanceLeft < 8){
       drive_speed(0, 0);
@@ -74,6 +98,7 @@ void navigate(void *v){
         pause(10);
       }
     }
+    openSpaceCheck();
   }
 }
 
@@ -89,7 +114,13 @@ void navigate(void *v){
 //the printDistance method is responsible for invoking simpleter_open();
 //Which in turn opens the terminal connection with the IDE.
 int main(){
+  int time;
+  mstime_start();
   int* coginfo0 = cog_run(&uSensor, sizeof(stack+32));
   //int* coginfo1 = cog_run(&printDistance, sizeof(stack+16));
   int* coginfo2 = cog_run(&navigate, sizeof(stack+64));
+  while(1){
+    time = mstime_get();
+    _time = time;
+  }
 }  
