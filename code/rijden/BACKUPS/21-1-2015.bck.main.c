@@ -57,20 +57,23 @@ void uSensor(void *v){
 //It checks for large open spaces periodically.
 //and navigates to them if one is found.
 void openSpaceCheck(){
-  if(mstime_get >= 10000){
-    mstime_stop();
-    mstime_reset();
+  if(_time = 60000){
+    _time = 0;
+    mstime_set(0);
     if(distanceLeft > 18){
-      drive_speed(0, 0);
-      pause(1000);
-      drive_goto(leftw, -rightw);
-      pause(10);
-      drive_speed(32, 32);
-      pause(1500);
-      mstime_start();
-      return;
+      if(openViewC >= 1){
+        openViewC = 0;
+      }else{
+        openViewC++;
+        drive_speed(0, 0);
+        pause(1000);
+        drive_goto(leftw, -rightw);
+        pause(10);
+        drive_speed(32, 32);
+        pause(1500);
+      }
     }
-  }
+  }  
 }
 
 //navigate incorperates all the movement functions, it makes the activitybot physically move, stop and turn.
@@ -114,8 +117,18 @@ void navigate(void *v){
 //the printDistance method is responsible for invoking simpleter_open();
 //Which in turn opens the terminal connection with the IDE.
 int main(){
+  int time;
   mstime_start();
   int* coginfo0 = cog_run(&uSensor, sizeof(stack+32));
   //int* coginfo1 = cog_run(&printDistance, sizeof(stack+16));
   int* coginfo2 = cog_run(&navigate, sizeof(stack+96));
+  while(1){
+    time = mstime_get();
+    _time = time;
+    if(_time = 60000){
+      _time = 0;
+      time = 0;
+    }
+    pause(100);
+  }
 }  
